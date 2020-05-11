@@ -19,7 +19,7 @@ First inital commits.
 
 Items | Version | Comments
 ------------ | ------------- | -------------
-BIOS | f9g | [Origin BIOS]() [Unlock CFG BIOS]()
+BIOS | f9g | [Origin BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mb_bios_z390-m-gaming_f9g.zip) [Unlock CFG BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mod_f9g.zip)
 OpenCore | 0.5.8 | 0.5.9 beta
 Lilu | 1.4.4 | 
 AppleALC | 1.4.9 |
@@ -35,24 +35,24 @@ It's both simple and complicated, in the easiest way, refer directly to the here
 ## Hardware
 Components | Brand | Comments
 ------------ | ------------- | -------------
-CPU | Intel i7 9700K | 8th/9th-gen are fine
+CPU | Intel i7 9700K | 8th/9th-gen both fine (9900/9700/9600/etc)
 MotherBoard | Gigabyte Z390M Gaming mATX | Support only
-Memory | Corsair Vengeance LPX 64GB (2x32GB) DDR4 | Recommend 3200MHz / Better 3600HMz
-GraphicCard | Dataland RX 580 8G X-Serial God of War 2304SP | **Don't buy 2048SP** / Recommend 5700XT
+WiFiCard | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including mini PCI-E Adapter)
+GraphicCard | Dataland RX 580 8G X-Serial God of War **2304SP** | **Don't buy 2048SP** / Recommend 5700XT
 HardDisk (SSD) | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW
-WiFiCard | BCM943602CDP | Bluetooth 4.2 (Including mini PCI-E Adapter)
-Power | Seasonic Focus Plus 650FX | Full-Modular / 80+ Gold
-Case | Jonsbo RM2 ATX | Silver
+Memory | Corsair Vengeance LPX 64GB (2x32GB) DDR4 | Recommend 3200MHz / Better 3600HMz
+PowerCase | Seasonic Focus Plus 650FX | Full-Modular / 80+ Gold
+BoxCase | Jonsbo RM2 ATX | Silver
 CPU Cooler | Jonsbo TW2-240 | 601 version
-Fan | Noctua NF-F12 PWM | 12cm
+Cooling Fan | Noctua NF-F12 PWM | 12cm
 Keyboard & Mouse | Magic Keyboard 2 & Magic Mouse 2 | Wireless first
 Monitors | LED Cinema Display 24` & AOC U2790PQU IPS 4K | ACD 24 including Camera / Mic / USB hub / Speaker
 
 **The three most important components: MotherBoard / GraphicCard / WiFiCard, it must be respected follow above list.**
 
-Z390M Gaming please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) last version to 'f9g' or download mod BIOS [here]() (unlock CFG, modify loading logo and disable SERIAL PORT)
+Z390M Gaming please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) last version to 'f9g' or download mod BIOS [here](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) (unlock CFG, disable SERIAL PORT and modify startup logo)
 
-If you wanted smoothly using AirDrop / AirPlay / Sidecar / HandOff / iMessage / Facetime / etc, very important which wifi card you choose. **Recommended to buy BCM94360CD/BCM943602CDP/BCM943602CS first.**
+If you wanted smoothly using AirDrop / AirPlay / Sidecar / Handoff / iMessage / Facetime / etc, very important which wifi card you choose. **Strongly recommend buying one of three BCM94360CD/BCM943602CDP/BCM943602CS**
 
 
 ## BIOS Settings
