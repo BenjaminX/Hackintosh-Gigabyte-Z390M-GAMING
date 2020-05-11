@@ -17,15 +17,19 @@ First inital commits.
 
 
 
-Items | Version | Comments
+Items | Last Version | Comments
 ------------ | ------------- | -------------
-BIOS | f9g | [Origin BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mb_bios_z390-m-gaming_f9g.zip) [Unlock CFG BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mod_f9g.zip)
+BIOS | f9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mod_f9g.zip)
 OpenCore | 0.5.8 | 0.5.9 beta
 Lilu | 1.4.4 | 
 AppleALC | 1.4.9 |
 VirtualSMC | 1.1.3 |
 WhateverGreen | 1.3.9 |
 IntelMausi | 1.0.2 | 1.0.3 beta
+
+GA Z390M Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) last version to 'f9g'.
+
+A better way, download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it based on 'f9g' version, Easy to go (unlock CFG, disabled SERIAL PORT and modify startup logo). 
 
 ## Overview
 Installation is simple, but requires prior knowledge or experience with Hackintoshes. 
@@ -35,22 +39,21 @@ It's both simple and complicated, in the easiest way, refer directly to the here
 ## Hardware
 Components | Brand | Comments
 ------------ | ------------- | -------------
-CPU | Intel i7 9700K | 8th/9th-gen both fine (9900/9700/9600/etc)
-MotherBoard | Gigabyte Z390M Gaming mATX | Support only
+CPU | Intel i7 9700K | 8th/9th-gen both fine (9900/9700/8700/etc)
+MotherBoard | Gigabyte Z390M Gaming mATX | Only support
 WiFiCard | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including mini PCI-E Adapter)
-GraphicCard | Dataland RX 580 8G X-Serial God of War **2304SP** | **Don't buy 2048SP** / Recommend 5700XT
-HardDisk (SSD) | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW
+GraphicCard | Dataland RX 580 8G X-Serial God of War **2304SP** | **Don't buy 2048SP** / Recommend Sapphire 5700XT
+SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW
 Memory | Corsair Vengeance LPX 64GB (2x32GB) DDR4 | Recommend 3200MHz / Better 3600HMz
 PowerCase | Seasonic Focus Plus 650FX | Full-Modular / 80+ Gold
 BoxCase | Jonsbo RM2 ATX | Silver
 CPU Cooler | Jonsbo TW2-240 | 601 version
 Cooling Fan | Noctua NF-F12 PWM | 12cm
 Keyboard & Mouse | Magic Keyboard 2 & Magic Mouse 2 | Wireless first
-Monitors | LED Cinema Display 24` & AOC U2790PQU IPS 4K | ACD 24 including Camera / Mic / USB hub / Speaker
+Monitors | Cinema Display 24 & AOC U2790PQU IPS 4K | ACD 24 including Camera / Mic / USB hub / Speaker
+HardDisk | Seagate BarraCuda 2TB 2.5 Inch | Backup / Time Machine
 
 **The three most important components: MotherBoard / GraphicCard / WiFiCard, it must be respected follow above list.**
-
-Z390M Gaming please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) last version to 'f9g' or download mod BIOS [here](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) (unlock CFG, disable SERIAL PORT and modify startup logo)
 
 If you wanted smoothly using AirDrop / AirPlay / Sidecar / Handoff / iMessage / Facetime / etc, very important which wifi card you choose. **Strongly recommend buying one of three BCM94360CD/BCM943602CDP/BCM943602CS**
 
@@ -91,15 +94,15 @@ Ref from [tonymacx86](https://www.tonymacx86.com/threads/success-jbarnettes-buil
 
 
 ## Tips
-* How to unlock CFG & change BIOS loading logo? (TBD)
+* How to unlock CFG & change BIOS startup logo? (TBD)
+* How to disable 'serial port' in BIOS? (TBD)
 * How to reconfig USB ports? (TBD)
 * How to enable & config TB3? (TBD)
 * How to modify SN/UUID/MLB? (TBD)
 * How to enable High-Speed USB port charging? (TBD)
-* How to disable 'serial port' in BIOS? (TBD)
 
 
-## Not Working/Issues
+## Not Working / Issues
 Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/issues)
 
 
@@ -112,6 +115,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all)
 * [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator)
 * [Hackintool](https://github.com/headkaze/Hackintool)
+* [PLIST Editor](https://apps.apple.com/us/app/plist-editor/id1157491961?mt=12)
 
 
 ## Reference
