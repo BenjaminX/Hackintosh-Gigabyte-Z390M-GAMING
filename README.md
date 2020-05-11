@@ -1,16 +1,40 @@
 # Hackintosh-Gigabyte-Z390M-GAMING
-Only for OpenCore bootloader https://github.com/acidanthera/OpenCorePkg
+Only for [OpenCore](https://github.com/acidanthera/OpenCorePkg) bootloader
 
-Gigabyte Z390M GAMING hackintosh by OpenCore
+### Gigabyte Z390M GAMING hackintosh by OpenCore
 
 Verified working with 10.15.5
 
-Overview Installation is simple and requires no prior knowledge or experience with Hackintoshes.
+About system
+![Image of Yaktocat]
+(https://octodex.github.com/images/yaktocat.png)
 
-Hardware Configuration
+### Overview
+Installation is simple and requires no prior knowledge or experience with Hackintoshes.
 
-BIOS Changes
+### Hardware Configuration
+Components | Brank | Memo
+------------ | ------------- | -------------
+CPU | Intel i7 9700K | 8th-gen or 9th-gen 
+MotherBoard | Gigabyte Z390M Gaming | Support only
+Memory | Corsair Vengeance LPX 64GB (2x32GB) DDR4 DRAM 3200MHz | 3600HMz
+Graphic Card | Dataland RX580 2304SP 8G | Don't buy 2048SP
+HardDisk(SSD) | Samsung 960 PRO 512G M.2 NVMe | 
+WiFi Card | BCM943602CDP | Bluetooth 4.2 (Including mini PCI-E Adapter)
+Power | SEASONIC FOCUS PLUS 650FX | Full-Modular / 80+ Gold
+Case | JONSBO RM2 ATX | Silver
+Fan | noctua NF-F12 * 3 PWM | 12cm
+CPU Cooler | JONSBO TW2-240 | 601 version
 
-Tips
+### BIOS Changes
 
-Not Working/Issues Please report and track [https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/issues].
+### Tips
+How to unlock CFG?
+How to change BIOS loading logo icon?
+
+### Not Working/Issues
+Please [report and track][https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/issues].
+
+
+
+
