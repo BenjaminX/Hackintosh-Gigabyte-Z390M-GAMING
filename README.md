@@ -27,9 +27,9 @@ VirtualSMC | 1.1.3 |
 WhateverGreen | 1.3.9 |
 IntelMausi | 1.0.2 | 1.0.3 beta
 
-GA Z390M Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) last version to 'f9g'.
+GA Z390M Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) last version 'f9g'.
 
-A better way, download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it based on 'f9g' version, Easy to go (unlock CFG, disabled SERIAL PORT and modify startup logo). 
+A better way, mod BIOS based on 'f9g' version. Download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it, Easy to go (unlocked CFG, disabled SERIAL PORT and modify startup logo). 
 
 ## Overview
 Installation is simple, but requires prior knowledge or experience with Hackintoshes. 
@@ -39,10 +39,11 @@ It's both simple and complicated, in the easiest way, refer directly to the here
 ## Hardware
 Components | Brand | Comments
 ------------ | ------------- | -------------
-CPU | Intel i7 9700K | 8th/9th-gen both fine (9900/9700/8700/etc)
+CPU | Intel i7 9700K/9900K | 8th/9th-gen both fine (9900/9700/8700/etc)
 MotherBoard | Gigabyte Z390M Gaming mATX | Only support
 WiFiCard | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including mini PCI-E Adapter)
 GraphicCard | Dataland RX 580 8G X-Serial God of War **2304SP** | **Don't buy 2048SP** / Recommend Sapphire 5700XT
+ThunderboltCard | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified
 SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW
 Memory | Corsair Vengeance LPX 64GB (2x32GB) DDR4 | Recommend 3200MHz / Better 3600HMz
 PowerCase | Seasonic Focus Plus 650FX | Full-Modular / 80+ Gold
@@ -100,6 +101,7 @@ Ref from [tonymacx86](https://www.tonymacx86.com/threads/success-jbarnettes-buil
 * How to enable & config TB3? (TBD)
 * How to modify SN/UUID/MLB? (TBD)
 * How to enable High-Speed USB port charging? (TBD)
+* How to config GC-TITAN RIDGE Thunderbolt 3? (TBD)
 
 
 ## Not Working / Issues
