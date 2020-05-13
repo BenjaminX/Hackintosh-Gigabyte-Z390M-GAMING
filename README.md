@@ -69,16 +69,19 @@ Ref from [tonymacx86](https://www.tonymacx86.com/threads/success-jbarnettes-buil
 * BIOS
     - Windows 8/10 Features → **Other OS**
     - CSM Support → **Disable**
-        - Secure Boot will be disabled by default, but good to check
+    - Secure Boot → **Disable** (Secure Boot will be disabled by default, but good to check)
 * Peripherals
     - Initial Display Output → PCIe Slot 1. If your discrete graphics card is in Slot 2, change this appropriately.
-    - Intel Platform Trust Technology (PTT) → Disabled
+    - Intel Platform Trust Technology (PTT) → **Disabled**
     - Thunderbolt(TM) Configuration
         - TBT Vt-d Base Security → **Disabled**
         - Thunderbolt Boot Support → **Disabled**
         - Security Level → **No Security**
+        - Discrete Thunderbolt Configuration
+        	- Thunderbolt USB Support → **Enabled**
+        	- GPIO3 Force Pwr → **Enabled**
     - USB Configuration
-        - Legacy USB Support → Enabled
+        - Legacy USB Support → **Enabled**
         - XHCI Hand-off → **Enabled**
     - Network Stack Configuration
         - Network Stack → **Disabled**
@@ -90,8 +93,8 @@ Ref from [tonymacx86](https://www.tonymacx86.com/threads/success-jbarnettes-buil
     - Audio Controller → **Enabled**
     - Above 4G Decoding → **Enabled**
 * Power
-    - ErP → Disabled
-    - RC6 (Render Standby) → Enabled
+    - ErP → **Disabled**
+    - RC6 (Render Standby) → **Enabled**
 
 
 ## Tips
