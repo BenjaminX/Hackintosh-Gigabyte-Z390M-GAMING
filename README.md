@@ -46,7 +46,7 @@ GraphicCard | Dataland RX 580 8G X-Serial God of War **2304SP** | **Don't buy 20
 ThunderboltCard | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified
 SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW
 Memory | Corsair Vengeance LPX 64GB (2x32GB) DDR4 | Recommend 3200MHz / Better 3600HMz
-PowerCase | Seasonic Focus Plus 650FX | Full-Modular / 80+ Gold
+PowerCase | Seasonic Focus Plus 650FX | Recommend upgrade GX850 / GX1000
 BoxCase | Jonsbo RM2 ATX | Silver
 CPU Cooler | Jonsbo TW2-240 | 601 version
 Cooling Fan | Noctua NF-F12 PWM | 12cm
