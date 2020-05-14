@@ -9,17 +9,18 @@ Verified working with macOS version 10.15.4 (19E287) Catalina
 
 ## Updates log
 
+Date 2020-05-14 / Version 0.0.2
+
+Upload mod BIOS based on 'f9g'.
+
 Date 2020-05-11 / Version 0.0.1
 
 First inital commits.
 
 
-
-
-
 Items | Last Version | Comments
 ------------ | ------------- | -------------
-BIOS | f9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mod_f9g.zip)
+BIOS | f9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/modBIOS_Z390M_Gaming.rom.zip)
 OpenCore | 0.5.8 | 0.5.9 beta
 Lilu | 1.4.4 | 
 AppleALC | 1.4.9 |
@@ -29,7 +30,7 @@ IntelMausi | 1.0.2 | 1.0.3 beta
 
 GA Z390M Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) last version 'f9g'.
 
-A better way, mod BIOS based on 'f9g' version. Download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it, Easy to go (unlocked CFG, disabled SERIAL PORT and modify startup logo). 
+A better way, mod BIOS based on 'f9g' version. Download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it, Easy to go (unlocked CFG, disabled SERIAL PORT and modified startup logo). 
 
 ## Overview
 Installation is simple, but requires prior knowledge or experience with Hackintoshes. 
@@ -40,19 +41,19 @@ It's both simple and complicated, in the easiest way, refer directly to the here
 Components | Brand | Comments
 ------------ | ------------- | -------------
 CPU | Intel i7 9700K/9900K | 8th/9th-gen both fine (9900/9700/8700/etc)
-MotherBoard | Gigabyte Z390M Gaming mATX | Only support
-WiFiCard | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including mini PCI-E Adapter)
-GraphicCard | Dataland RX 580 8G X-Serial God of War **2304SP** | **Don't buy 2048SP** / Recommend Sapphire 5700XT
-ThunderboltCard | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified
+Motherboard | Gigabyte Z390M Gaming mATX | Only support
+WiFi Card | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including mini PCI-E Adapter)
+Graphic Card | Dataland RX 580 8G X-Serial God of War **2304SP** | **Don't buy 2048SP** / Recommend Sapphire 5700XT
+Thunderbolt Card | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified
 SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW
 Memory | Corsair Vengeance LPX 64GB (2x32GB) DDR4 | Recommend 3200MHz / Better 3600HMz
-PowerCase | Seasonic Focus Plus 650FX | Recommend upgrade GX850 / GX1000
-BoxCase | Jonsbo RM2 ATX | Silver
+Power Case | Seasonic Focus Plus 650FX | Recommend upgrade GX850 / GX1000
+Box Case | Jonsbo RM2 ATX | Silver
 CPU Cooler | Jonsbo TW2-240 | 601 version
 Cooling Fan | Noctua NF-F12 PWM | 12cm
-Keyboard & Mouse | Magic Keyboard 2 & Magic Mouse 2 | Wireless first
 Monitors | Cinema Display 24 & AOC U2790PQU IPS 4K | ACD 24 including Camera / Mic / USB hub / Speaker
-HardDisk | Seagate BarraCuda 2TB 2.5 Inch | Backup / Time Machine
+Keyboard & Mouse | Magic Keyboard 2 & Magic Mouse 2 | Wireless first
+Hard Disk | Seagate BarraCuda 2TB 2.5 Inch | Backup / Time Machine
 
 **The three most important components: MotherBoard / GraphicCard / WiFiCard, it must be respected follow above list.**
 
@@ -98,10 +99,7 @@ Ref from [tonymacx86](https://www.tonymacx86.com/threads/success-jbarnettes-buil
 
 
 ## Tips
-* How to unlock CFG & change BIOS startup logo? (TBD)
-* How to disable 'serial port' in BIOS? (TBD)
 * How to reconfig USB ports? (TBD)
-* How to enable & config TB3? (TBD)
 * How to modify SN/UUID/MLB? (TBD)
 * How to enable High-Speed USB port charging? (TBD)
 * How to config GC-TITAN RIDGE Thunderbolt 3? (TBD)
