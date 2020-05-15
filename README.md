@@ -20,17 +20,17 @@ First inital commits.
 
 Items | Last Version | Comments
 ------------ | ------------- | -------------
-BIOS | f9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/modBIOS_Z390M_Gaming.rom.zip)
-OpenCore | 0.5.8 | 0.5.9 beta
-Lilu | 1.4.4 | 
-AppleALC | 1.4.9 |
-VirtualSMC | 1.1.3 |
-WhateverGreen | 1.3.9 |
-IntelMausi | 1.0.2 | 1.0.3 beta
+[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | f9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/modBIOS_Z390M_Gaming.rom.zip)
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.5.8 | 0.5.9 beta
+[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.4 | 
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.4.9 |
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.3 |
+[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.3.9 |
+[IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.2 | 1.0.3 beta
 
 GA Z390M Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) last version 'f9g'.
 
-A better way, mod BIOS based on 'f9g' version. Download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it, Easy to go (unlocked CFG, disabled SERIAL PORT and modified startup logo). 
+**A better way, mod BIOS based on 'f9g' version. Download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it, Easy to go (unlocked CFG, disabled SERIAL PORT and modified startup logo).**
 
 ## Overview
 Installation is simple, but requires prior knowledge or experience with Hackintoshes. 
