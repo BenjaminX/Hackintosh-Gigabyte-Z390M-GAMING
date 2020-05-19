@@ -11,7 +11,7 @@ Verified working with macOS version 10.15.4 (19E287) Catalina
 
 Date 2020-05-14 / Version 0.0.2
 
-Upload mod BIOS based on 'f9g'.
+Upload mod BIOS based on 'F9g'.
 
 Date 2020-05-11 / Version 0.0.1
 
@@ -20,17 +20,18 @@ First inital commits.
 
 Items | Last Version | Comments
 ------------ | ------------- | -------------
-[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | f9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/modBIOS_Z390M_Gaming.rom.zip)
+[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/modBIOS_Z390M_Gaming.rom.zip)
 [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.5.8 | 0.5.9 beta
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.4 | 
 [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.4.9 |
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.3 |
 [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.3.9 |
+[NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.2 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.2 | 1.0.3 beta
 
-GA Z390M Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) last version 'f9g'.
+GA Z390M Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) last version 'F9g'.
 
-**A better way, mod BIOS based on 'f9g' version. Download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it, Easy to go (unlocked CFG, disabled SERIAL PORT and modified startup logo).**
+**A better way, mod BIOS based on 'F9g' version. Download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it, Easy to go (unlocked CFG, disabled SERIAL PORT and modified startup logo).**
 
 ## Overview
 Installation is simple, but requires prior knowledge or experience with Hackintoshes. 
@@ -115,6 +116,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [VirtualSMC](https://github.com/acidanthera/VirtualSMC)
 * [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
 * [IntelMausi](https://github.com/acidanthera/IntelMausi)
+* [NVMeFix](https://github.com/acidanthera/NVMeFix)
 * [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all)
 * [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator)
 * [Hackintool](https://github.com/headkaze/Hackintool)
