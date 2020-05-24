@@ -9,6 +9,10 @@ Verified working with macOS version 10.15.4 (19E287) Catalina
 
 ## Updates log
 
+Date 2020-05-24 / Version 0.0.3
+
+Upload some kexts files.
+
 Date 2020-05-14 / Version 0.0.2
 
 Upload mod BIOS based on 'F9g'.
@@ -53,7 +57,7 @@ Box Case | Jonsbo RM2 ATX | Silver
 CPU Cooler | Jonsbo TW2-240 | 601 version
 Cooling Fan | Noctua NF-F12 PWM | 12cm
 Monitors | Cinema Display 24 & AOC U2790PQU IPS 4K | ACD 24 including Camera / Mic / USB hub / Speaker
-Keyboard & Mouse | Magic Keyboard 2 & Magic Mouse 2 | Wireless first
+Keyboard & Mouse | Magic Keyboard & Magic Mouse 2 & Magic Trackpad 2 | Wireless first
 Hard Disk | Seagate BarraCuda 2TB 2.5 Inch | Backup / Time Machine
 
 **The three most important components: MotherBoard / GraphicCard / WiFiCard, it must be respected follow above list.**
