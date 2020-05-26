@@ -7,7 +7,16 @@ Verified working with macOS version 10.15.4 (19E287) Catalina
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
+## Important! Important! Important!
+
+**YOU MUST be modify SN/UUID/MLB in config.plist file.**
+![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
+
 ## Updates log
+
+Date 2020-05-26 / Version 0.0.9
+
+Prepare to release 1.0.0, waiting 10.15.5 version to publish to App Store.
 
 Date 2020-05-24 / Version 0.0.3
 
