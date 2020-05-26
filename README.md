@@ -50,11 +50,12 @@ Motherboard | Gigabyte Z390M Gaming mATX | Only support
 WiFi Card | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including mini PCI-E Adapter)
 Graphic Card | Dataland RX 580 8G X-Serial God of War **2304SP** | **Don't buy 2048SP** / Recommend Sapphire 5700XT
 Thunderbolt Card | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified
-SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW
-Memory | Corsair Vengeance LPX 64GB (2x32GB) DDR4 | Recommend 3200MHz / Better 3600HMz
+SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW, Recommend upgrade 1TB
+RAM | Corsair Vengeance LPX 64GB (2x32GB) DDR4 | Recommend 3200MHz / Better 3600HMz
 Power Case | Seasonic Focus Plus 650FX | Recommend upgrade GX850 / GX1000
 Box Case | Jonsbo RM2 ATX | Silver
 CPU Cooler | Jonsbo TW2-240 | 601 version
+SSD Cooler | CRYORIG Frostbit (M.2) | 
 Cooling Fan | Noctua NF-F12 PWM | 12cm
 Monitors | Cinema Display 24 & AOC U2790PQU IPS 4K | ACD 24 including Camera / Mic / USB hub / Speaker
 Keyboard & Mouse | Magic Keyboard & Magic Mouse 2 & Magic Trackpad 2 | Wireless first
@@ -62,7 +63,7 @@ Hard Disk | Seagate BarraCuda 2TB 2.5 Inch | Backup / Time Machine
 
 **The three most important components: MotherBoard / GraphicCard / WiFiCard, it must be respected follow above list.**
 
-If you wanted smoothly using AirDrop / AirPlay / Sidecar / Handoff / iMessage / Facetime / etc, very important which wifi card you choose. **Strongly recommend buying one of three BCM94360CD/BCM943602CDP/BCM943602CS**
+If you wanted smoothly using AirDrop / AirPlay / Sidecar / Handoff / iMessage / Facetime / Contiuenity / etc, very important which wifi card you choose. **Strongly recommend buying one of three BCM94360CD/BCM943602CDP/BCM943602CS**
 
 
 ## BIOS Settings
@@ -122,7 +123,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [IntelMausi](https://github.com/acidanthera/IntelMausi)
 * [NVMeFix](https://github.com/acidanthera/NVMeFix)
 * [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all)
-* [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator)
+* [OpenCore Configurator](https://mackie100projects.altervista.org/category/opencore-configurator-changelog/)
 * [Hackintool](https://github.com/headkaze/Hackintool)
 * [PLIST Editor](https://apps.apple.com/us/app/plist-editor/id1157491961?mt=12)
 
