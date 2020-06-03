@@ -3,16 +3,22 @@ Only for [OpenCore](https://github.com/acidanthera/OpenCorePkg) bootloader, not 
 
 ## Gigabyte Z390M GAMING hackintosh by OpenCore
 
-Verified working with macOS version 10.15.4 (19E287) Catalina
+Verified working with macOS version 10.15.5 (19F101) Catalina
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
 ## Important! Important! Important!
 
 **YOU MUST be modify SN/UUID/MLB in config.plist file.**
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
+TB3 not working, keep going.
+
 ## Updates log
+
+Date 2020-06-02 / Version 1.0.0
+
+Final Release 1.0.0, 10.15.5 (19F101) well done, OC 0.5.9 and Kexts updates.
 
 Date 2020-05-26 / Version 0.0.9
 
@@ -34,13 +40,13 @@ First inital commits.
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/modBIOS_Z390M_Gaming.rom.zip)
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.5.8 | 0.5.9 beta
-[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.4 | 
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.4.9 |
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.3 |
-[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.3.9 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.5.9 |
+[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.5 | 
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.0 |
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.4 |
+[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.0 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.2 |
-[IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.2 | 1.0.3 beta
+[IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.3 |
 
 GA Z390M Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) last version 'F9g'.
 
@@ -112,7 +118,6 @@ Ref from [tonymacx86](https://www.tonymacx86.com/threads/success-jbarnettes-buil
     - ErP → **Disabled**
     - RC6 (Render Standby) → **Enabled**
 
-
 ## Tips
 * How to reconfig USB ports? (TBD)
 * How to modify SN/UUID/MLB? (TBD)
@@ -135,11 +140,15 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [OpenCore Configurator](https://mackie100projects.altervista.org/category/opencore-configurator-changelog/)
 * [Hackintool](https://github.com/headkaze/Hackintool)
 * [PLIST Editor](https://apps.apple.com/us/app/plist-editor/id1157491961?mt=12)
+* [FreeDOS](http://www.freedos.org/download/)
 
 
 ## Reference
 * [https://github.com/iGuan7u/OpenCore-Gigabyte-Z390M-Gaming](https://github.com/iGuan7u/OpenCore-Gigabyte-Z390M-Gaming)
 * [https://github.com/wellsgz/Opencore-Gigabyte-Z390M-Gaming-Hackintosh](https://github.com/wellsgz/Opencore-Gigabyte-Z390M-Gaming-Hackintosh)
+* [https://dortania.github.io/OpenCore-Desktop-Guide/](https://dortania.github.io/OpenCore-Desktop-Guide/)
+* [https://dortania.github.io/Getting-Started-With-ACPI/](https://dortania.github.io/Getting-Started-With-ACPI/)
+* [Sanity Checker for config.plist](https://opencore.slowgeek.com)
 
 
 
