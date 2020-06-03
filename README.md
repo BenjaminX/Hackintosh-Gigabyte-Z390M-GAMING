@@ -125,15 +125,15 @@ Based on F9g version.
     	- Network Stack Configuration
     		- Network Stack → **Disabled**
 	- Miscellaneous
-			- Intel Platform Trust Technology(PTT) → **Disabled**
+		- Intel Platform Trust Technology(PTT) → **Disabled**
 * System Info.
 	- System Language → **English**
 * Boot
 	- Full Screen LOGO Show → **Disabled**
 	- Fast Boot → **Disabled**
-   - Windows 8/10 Features → **Other OS**
-   - CSM Support → **Disable**
-   - Secure Boot → **Disable** (Secure Boot will be disabled by default, but good to check)
+	- Windows 8/10 Features → **Other OS**
+	- CSM Support → **Disable**
+	- Secure Boot → **Disable** (Secure Boot will be disabled by default, but good to check)
 
 #### For Thunderbolt Card GC-TITAN RIDGE(Not working, go on do it.)
 
@@ -187,6 +187,8 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 ![H264H265](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/H264H265.png?raw=true)
 ![SSDSpeed](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/SSDSpeed.png?raw=true)
 
+
+## Hardward Shot
 
 
 
