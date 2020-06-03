@@ -9,14 +9,11 @@ Verified working with macOS version 10.15.5 (19F101) Catalina
 
 ## Important! Important! Important!
 
-**YOU MUST be modify SN/UUID/MLB in config.plist file.**
+**YOU MUST be modify SN/UUID/MLB/ROM in config.plist file.**
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 
 ## Updates log
-
-TB3 not working, keep going.
-
 
 Date 2020-06-03 / Version 1.0.1
 
@@ -87,48 +84,76 @@ Hard Disk | Seagate BarraCuda 2TB 2.5 Inch | Backup / Time Machine
 If you wanted smoothly using AirDrop / AirPlay / Sidecar / Handoff / iMessage / Facetime / Contiuenity / etc, very important which wifi card you choose. **Strongly recommend buying one of three BCM94360CD/BCM943602CDP/BCM943602CS**
 
 
-## BIOS Settings
-Ref from [tonymacx86](https://www.tonymacx86.com/threads/success-jbarnettes-build-gigabyte-z390-m-gaming-i9-9900k-sapphire-rx-vega-64-8gb-32gb-ram-macos-10-14-3-w-usb3-working.273381/) post thread.
+## BIOS Setting
+
+Based on F9g version.
+
+#### First setup,
 
 * Save & Exit
-    - Load Optimized Defaults then make (or confirm) the following settings -- important settings in **bold**:
-* M.I.T.
-    - Extreme Memory Profile (X.M.P.) → **Profile 1**
-* BIOS
-    - Windows 8/10 Features → **Other OS**
-    - CSM Support → **Disable**
-    - Secure Boot → **Disable** (Secure Boot will be disabled by default, but good to check)
-* Peripherals
-    - Initial Display Output → PCIe Slot 1. If your discrete graphics card is in Slot 2, change this appropriately.
-    - Intel Platform Trust Technology (PTT) → **Disabled**
-    - Thunderbolt(TM) Configuration
-        - TBT Vt-d Base Security → **Disabled**
-        - Thunderbolt Boot Support → **Disabled**
-        - Security Level → **No Security**
-        - Discrete Thunderbolt Configuration
-        	- Thunderbolt USB Support → **Enabled**
-        	- GPIO3 Force Pwr → **Enabled**
-    - USB Configuration
-        - Legacy USB Support → **Enabled**
-        - XHCI Hand-off → **Enabled**
-    - Network Stack Configuration
-        - Network Stack → **Disabled**
-* Chipset
-    - Vt-d → **Disabled**
-    - Internal Graphics → **Enabled**
-    - DVMT Pre-Alloc → 64M
-    - DVMT Total Gfx Mem → 256M
-    - Audio Controller → **Enabled**
-    - Above 4G Decoding → **Enabled**
-* Power
-    - ErP → **Disabled**
-    - RC6 (Render Standby) → **Enabled**
+	- Load Optimized Defaults, Save & Exit Setup reboot it.
+
+#### Second setup,
+
+* Tweaker
+	- Advanced CPU Settings
+		- VT-d → **Disabled**
+	- Extreme Memory Profile(X.M.P.) → **Profile 1**
+	- Advanced Memory Settings
+		- Memory Boot Mode → **Enable Fast Boot**
+* Settings
+	- Platform Power
+		- Platform Power Management → **Disabled**
+		- AC Back → **Always On**
+		- ErP → **Disabled**
+		- Soft-Off by PWR-BTTN → **Delay 4 Sec.**
+		- Power Loading → **Enabled**
+		- RC6(Render Standby) → **Enabled**
+	- IO Ports
+		- Initial Display Output → **PCIe 1 Slot**
+		- Internal Graphics → **Enabled**
+		- DVMT Pre-Allocated → **64M**
+		- DVMT Total-Gfx Mem → **256M**
+		- Aperture Size → **256M**
+		- Audio Controller → **Enabled**
+    	- Above 4G Decoding → **Enabled**
+    	- USB Configuration
+    		- XHCI Hand-off → **Enabled**
+    		- Legacy USB Support → **Enabled**
+    		- USB Mass Storage Driver Support → **Enabled**
+    		- Port 60/64 Emulation → **Disabled**
+    	- Network Stack Configuration
+    		- Network Stack → **Disabled**
+	- Miscellaneous
+			- Intel Platform Trust Technology(PTT) → **Disabled**
+* System Info.
+	- System Language → **English**
+* Boot
+	- Full Screen LOGO Show → **Disabled**
+	- Fast Boot → **Disabled**
+   - Windows 8/10 Features → **Other OS**
+   - CSM Support → **Disable**
+   - Secure Boot → **Disable** (Secure Boot will be disabled by default, but good to check)
+
+#### For Thunderbolt Card GC-TITAN RIDGE(Not working, go on do it.)
+
+* Thunderbolt(TM) Configuration
+	- Discrete Thunderbolt(TM) Support → **Enabled**
+	- TBT Vt-d base security → **Disabled**
+   - Thunderbolt Boot Support → **Disabled**
+   - Wake From Thunderbolt(TM) Devices → **Enabled**
+   - Security Level → **No Security**
+   - Discrete Thunderbolt(TM) Configuration
+       - Thunderbolt Usb Support → **Enabled**
+       - GPIO3 Force Pwr → **Enabled**
+
 
 ## Tips
 * How to reconfig USB ports? (TBD)
 * How to modify SN/UUID/MLB? (TBD)
 * How to enable High-Speed USB port charging? (TBD)
 * How to config GC-TITAN RIDGE Thunderbolt 3? (TBD)
+* How to refresh Unsigned BIOS file? (TBD)
 
 
 ## Not Working / Issues
@@ -146,6 +171,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [OpenCore Configurator](https://mackie100projects.altervista.org/category/opencore-configurator-changelog/)
 * [Hackintool](https://github.com/headkaze/Hackintool)
 * [PLIST Editor](https://apps.apple.com/us/app/plist-editor/id1157491961?mt=12)
+* [Sanity Checker for config.plist](https://opencore.slowgeek.com)
 * [FreeDOS](http://www.freedos.org/download/)
 
 
@@ -154,10 +180,10 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [https://github.com/wellsgz/Opencore-Gigabyte-Z390M-Gaming-Hackintosh](https://github.com/wellsgz/Opencore-Gigabyte-Z390M-Gaming-Hackintosh)
 * [https://dortania.github.io/OpenCore-Desktop-Guide/](https://dortania.github.io/OpenCore-Desktop-Guide/)
 * [https://dortania.github.io/Getting-Started-With-ACPI/](https://dortania.github.io/Getting-Started-With-ACPI/)
-* [Sanity Checker for config.plist](https://opencore.slowgeek.com)
+
 
 ## System ScreenShot
-
+![Display](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/Display.png?raw=true)
 ![H264H265](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/H264H265.png?raw=true)
 ![SSDSpeed](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/SSDSpeed.png?raw=true)
 

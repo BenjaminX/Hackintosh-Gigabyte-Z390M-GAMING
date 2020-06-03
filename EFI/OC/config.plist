@@ -764,17 +764,17 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>ChangeMe</string>
+			<string>C02005501J9LNV9JA</string>
 			<key>ROM</key>
-			<data>tC4AAAAA</data>
+			<data>tC6ZiReD</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
-			<string>ChangeMe</string>
+			<string>C02C6VZMJV3Q</string>
 			<key>SystemUUID</key>
-			<string>ChangeMe</string>
+			<string>5754CFFA-5B42-4FA2-A80D-AE077BF0CE6D</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
