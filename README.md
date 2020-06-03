@@ -12,9 +12,15 @@ Verified working with macOS version 10.15.5 (19F101) Catalina
 **YOU MUST be modify SN/UUID/MLB in config.plist file.**
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
-TB3 not working, keep going.
 
 ## Updates log
+
+TB3 not working, keep going.
+
+
+Date 2020-06-03 / Version 1.0.1
+
+Fixed H.264/H.265 supported.
 
 Date 2020-06-02 / Version 1.0.0
 
@@ -60,9 +66,9 @@ It's both simple and complicated, in the easiest way, refer directly to the here
 ## Hardware
 Components | Brand | Comments
 ------------ | ------------- | -------------
-CPU | Intel i7 9700K/9900K | 8th/9th-gen both fine (9900/9700/8700/etc)
+CPU | Intel i7 9700K | 8th/9th-gen both fine (9900K/9700/8700/etc)
 Motherboard | Gigabyte Z390M Gaming mATX | Only support
-WiFi Card | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including mini PCI-E Adapter)
+WiFi Card | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including NGFF to M.2 Adapter)
 Graphic Card | Dataland RX 580 8G X-Serial God of War **2304SP** | **Don't buy 2048SP** / Recommend Sapphire 5700XT
 Thunderbolt Card | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified
 SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW, Recommend upgrade 1TB
@@ -149,6 +155,13 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [https://dortania.github.io/OpenCore-Desktop-Guide/](https://dortania.github.io/OpenCore-Desktop-Guide/)
 * [https://dortania.github.io/Getting-Started-With-ACPI/](https://dortania.github.io/Getting-Started-With-ACPI/)
 * [Sanity Checker for config.plist](https://opencore.slowgeek.com)
+
+## System ScreenShot
+
+![H264H265](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/H264H265.png?raw=true)
+![SSDSpeed](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/SSDSpeed.png?raw=true)
+
+
 
 
 
