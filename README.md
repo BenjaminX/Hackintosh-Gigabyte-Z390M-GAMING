@@ -103,7 +103,10 @@ Based on F9g version.
 		- Memory Boot Mode → **Enable Fast Boot**
 * Settings
 	- Platform Power
-		- Platform Power Management → **Disabled**
+		- Platform Power Management → **Enabled**
+			- PEG ASPM → **Enabled**
+			- PCH ASPM → **Enabled**
+			- DMI ASPM → **Disabled**
 		- AC Back → **Always On**
 		- ErP → **Disabled**
 		- Soft-Off by PWR-BTTN → **Delay 4 Sec.**
@@ -129,13 +132,15 @@ Based on F9g version.
 * System Info.
 	- System Language → **English**
 * Boot
-	- Full Screen LOGO Show → **Disabled**
+	- Full Screen LOGO Show → **English**
 	- Fast Boot → **Disabled**
 	- Windows 8/10 Features → **Other OS**
 	- CSM Support → **Disable**
 	- Secure Boot → **Disable** (Secure Boot will be disabled by default, but good to check)
 
-#### For Thunderbolt Card GC-TITAN RIDGE(Not working, go on do it.)
+#### For Thunderbolt Card GC-TITAN RIDGE
+
+Not working, keep on do it. when you known how to fix it, please contact me. thx a lot.
 
 * Thunderbolt(TM) Configuration
 	- Discrete Thunderbolt(TM) Support → **Enabled**
