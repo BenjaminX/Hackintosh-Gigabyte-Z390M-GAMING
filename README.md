@@ -50,6 +50,8 @@ Items | Last Version | Comments
 [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.0 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.2 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.3 |
+[HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.3.3 |
+
 
 GA Z390M Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) last version 'F9g'.
 
@@ -103,14 +105,11 @@ Based on F9g version.
 		- Memory Boot Mode → **Enable Fast Boot**
 * Settings
 	- Platform Power
-		- Platform Power Management → **Enabled**
-			- PEG ASPM → **Enabled**
-			- PCH ASPM → **Enabled**
-			- DMI ASPM → **Disabled**
+		- Platform Power Management → **Disabled**
 		- AC Back → **Always On**
 		- ErP → **Disabled**
 		- Soft-Off by PWR-BTTN → **Delay 4 Sec.**
-		- Power Loading → **Enabled**
+		- Power Loading → **Auto**
 		- RC6(Render Standby) → **Enabled**
 	- IO Ports
 		- Initial Display Output → **PCIe 1 Slot**
@@ -129,6 +128,7 @@ Based on F9g version.
     		- Network Stack → **Disabled**
 	- Miscellaneous
 		- Intel Platform Trust Technology(PTT) → **Disabled**
+		- Software Guard Extensions(SGX) → **Disabled**
 * System Info.
 	- System Language → **English**
 * Boot
@@ -139,8 +139,6 @@ Based on F9g version.
 	- Secure Boot → **Disable** (Secure Boot will be disabled by default, but good to check)
 
 #### For Thunderbolt Card GC-TITAN RIDGE
-
-Not working, keep on do it. when you known how to fix it, please contact me. thx a lot.
 
 * Thunderbolt(TM) Configuration
 	- Discrete Thunderbolt(TM) Support → **Enabled**
@@ -157,8 +155,8 @@ Not working, keep on do it. when you known how to fix it, please contact me. thx
 * How to reconfig USB ports? (TBD)
 * How to modify SN/UUID/MLB? (TBD)
 * How to enable High-Speed USB port charging? (TBD)
-* How to config GC-TITAN RIDGE Thunderbolt 3? (TBD)
 * How to refresh Unsigned BIOS file? (TBD)
+* How to hard-flash GC-TITAN RIDGE BIOS and SSDT patched it？Ref here [Post 1](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1640#post-2087524) [Post 2](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1624#post-2086862) [Post 3](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge.md) [Post 4](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge-CustomFirmware.md)
 
 
 ## Not Working / Issues
@@ -172,6 +170,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
 * [IntelMausi](https://github.com/acidanthera/IntelMausi)
 * [NVMeFix](https://github.com/acidanthera/NVMeFix)
+* [HibernationFixup](https://github.com/acidanthera/HibernationFixup)
 * [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all)
 * [OpenCore Configurator](https://mackie100projects.altervista.org/category/opencore-configurator-changelog/)
 * [Hackintool](https://github.com/headkaze/Hackintool)
@@ -191,9 +190,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 ![Display](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/Display.png?raw=true)
 ![H264H265](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/H264H265.png?raw=true)
 ![SSDSpeed](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/SSDSpeed.png?raw=true)
-
-
-## Hardward Shot
+![CPUSpeed](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/intelpower.png?raw=true)
 
 
 
