@@ -150,14 +150,14 @@ Based on F9g version.
        - Thunderbolt Usb Support → **Enabled**
        - GPIO3 Force Pwr → **Enabled**
 
-#### For non-native supported network card like DW1820A 
+#### For non-native supported network card like DW1820A and others
 ![AirportBrcmFixup/BrcmBluetoothInjector/BrcmFirmwareData/BrcmPatchRAM3](https://github.com/z4q/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/DW1820A.png?raw=true)
 
 * Kernel → Add
    - AirportBrcmFixup → **Enabled** → **TRUE/YES**
-   - BrcmBluetoothInjector → **Enabled** / **TRUE/YES**
-   - BrcmFirmwareData → **Enabled** / **TRUE/YES**
-   - BrcmPatchRAM3 → **Enabled** / **TRUE/YES**
+   - BrcmBluetoothInjector → **Enabled** → **TRUE/YES**
+   - BrcmFirmwareData → **Enabled** → **TRUE/YES**
+   - BrcmPatchRAM3 → **Enabled** → **TRUE/YES**
    
 
 ## Tips
