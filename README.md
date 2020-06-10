@@ -79,7 +79,7 @@ CPU | Intel i7 9700K | 8th/9th-gen both fine (9900K/9700/8700/etc)
 Motherboard | Gigabyte Z390M Gaming mATX | Only support
 WiFi Card | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including NGFF to M.2 Adapter)
 Graphic Card | Dataland RX 580 8G X-Serial God of War **2304SP** | **Don't buy 2048SP** / Recommend Sapphire 5700XT
-Thunderbolt Card | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified
+Thunderbolt Card | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified (Need hard-flash)
 SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW, Recommend upgrade 1TB
 RAM | Corsair Vengeance LPX 64GB (2x32GB) DDR4 | Recommend 3200MHz / Better 3600HMz
 Power Case | Seasonic Focus Plus 650FX | Recommend upgrade GX850 / GX1000
@@ -142,7 +142,7 @@ Based on F9g version.
 * System Info.
 	- System Language → **English**
 * Boot
-	- Full Screen LOGO Show → **English**
+	- Full Screen LOGO Show → **Enabled**
 	- Fast Boot → **Disabled**
 	- Windows 8/10 Features → **Other OS**
 	- CSM Support → **Disable**
@@ -153,7 +153,7 @@ Based on F9g version.
 * Thunderbolt(TM) Configuration
 	- Discrete Thunderbolt(TM) Support → **Enabled**
 	- TBT Vt-d base security → **Disabled**
-   - Thunderbolt Boot Support → **Disabled**
+   - Thunderbolt Boot Support → **BootOnce**
    - Wake From Thunderbolt(TM) Devices → **Enabled**
    - Security Level → **No Security**
    - Discrete Thunderbolt(TM) Configuration
