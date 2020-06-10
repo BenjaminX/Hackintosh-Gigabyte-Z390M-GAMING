@@ -15,6 +15,13 @@ Verified working with macOS version 10.15.5 (19F101) Catalina
 
 ## Updates log
 
+**Wakeup issues was still not fixed and resolved, wakened some applications freezed. such as Videopro/Hackintool/Safari play video/etc.**
+
+
+Date 2020-06-10 / Version 1.2.0
+
+Gigabyte GC-TITAN RIDGE supported, pls ref how to hard-flash BIOS.
+
 Date 2020-06-03 / Version 1.1.0
 
 Fixed wakeup issues some applications was freeze.
@@ -117,7 +124,7 @@ Based on F9g version.
 	- IO Ports
 		- Initial Display Output → **PCIe 1 Slot**
 		- Internal Graphics → **Enabled**
-		- DVMT Pre-Allocated → **64M**
+		- DVMT Pre-Allocated → **128M**
 		- DVMT Total-Gfx Mem → **256M**
 		- Aperture Size → **256M**
 		- Audio Controller → **Enabled**
@@ -184,6 +191,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 ## Reference
 * [https://github.com/iGuan7u/OpenCore-Gigabyte-Z390M-Gaming](https://github.com/iGuan7u/OpenCore-Gigabyte-Z390M-Gaming)
 * [https://github.com/wellsgz/Opencore-Gigabyte-Z390M-Gaming-Hackintosh](https://github.com/wellsgz/Opencore-Gigabyte-Z390M-Gaming-Hackintosh)
+* [https://www.tonymacx86.com/threads/gigabyte-z390-m-gaming-build-with-working-nvram.291193/](https://www.tonymacx86.com/threads/gigabyte-z390-m-gaming-build-with-working-nvram.291193/)
 * [https://dortania.github.io/OpenCore-Desktop-Guide/](https://dortania.github.io/OpenCore-Desktop-Guide/)
 * [https://dortania.github.io/Getting-Started-With-ACPI/](https://dortania.github.io/Getting-Started-With-ACPI/)
 
@@ -192,8 +200,9 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 ![Display](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/Display.png?raw=true)
 ![H264H265](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/H264H265.png?raw=true)
 ![SSDSpeed](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/SSDSpeed.png?raw=true)
-![CPUSpeed](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/intelpower.png?raw=true)
-
+![IntelPower](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/intelpower.png?raw=true)
+![TB3](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/tb3.png?raw=true)
+![TB3PCI](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/tb3pci.png?raw=true)
 
 
 
