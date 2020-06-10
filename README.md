@@ -15,6 +15,10 @@ Verified working with macOS version 10.15.5 (19F101) Catalina
 
 ## Updates log
 
+Date 2020-06-03 / Version 1.1.0
+
+Fixed wakeup issues some applications was freeze.
+
 Date 2020-06-03 / Version 1.0.1
 
 Fixed H.264/H.265 supported.
@@ -50,7 +54,6 @@ Items | Last Version | Comments
 [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.0 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.2 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.3 |
-[HibernationFixup](https://github.com/acidanthera/HibernationFixup/releases) | 1.3.3 |
 
 
 GA Z390M Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) last version 'F9g'.
@@ -170,7 +173,6 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
 * [IntelMausi](https://github.com/acidanthera/IntelMausi)
 * [NVMeFix](https://github.com/acidanthera/NVMeFix)
-* [HibernationFixup](https://github.com/acidanthera/HibernationFixup)
 * [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all)
 * [OpenCore Configurator](https://mackie100projects.altervista.org/category/opencore-configurator-changelog/)
 * [Hackintool](https://github.com/headkaze/Hackintool)
