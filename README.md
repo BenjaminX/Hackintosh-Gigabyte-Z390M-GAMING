@@ -15,7 +15,7 @@ Verified working with macOS version 10.15.5 (19F101) Catalina
 
 ## Updates log
 
-**Wakeup issues was still not fixed and resolved, wakened some applications freezed. such as Videopro/Hackintool/Safari play video/etc.**
+**Wakeup issues was still not fixed and resolved, wakened some applications freezed. such as Videoproc/Hackintool/Safari play video/etc.**
 
 
 Date 2020-06-10 / Version 1.2.0
@@ -115,7 +115,10 @@ Based on F9g version.
 		- Memory Boot Mode → **Enable Fast Boot**
 * Settings
 	- Platform Power
-		- Platform Power Management → **Disabled**
+		- Platform Power Management → **Enabled**
+			- PEG ASPM → **Enabled**
+			- PCH ASPM → **Enabled**
+			- DMI ASPM → **Disabled**
 		- AC Back → **Always On**
 		- ErP → **Disabled**
 		- Soft-Off by PWR-BTTN → **Delay 4 Sec.**
@@ -125,7 +128,7 @@ Based on F9g version.
 		- Initial Display Output → **PCIe 1 Slot**
 		- Internal Graphics → **Enabled**
 		- DVMT Pre-Allocated → **128M**
-		- DVMT Total-Gfx Mem → **256M**
+		- DVMT Total-Gfx Mem → **MAX**
 		- Aperture Size → **256M**
 		- Audio Controller → **Enabled**
     	- Above 4G Decoding → **Enabled**
@@ -153,7 +156,7 @@ Based on F9g version.
 * Thunderbolt(TM) Configuration
 	- Discrete Thunderbolt(TM) Support → **Enabled**
 	- TBT Vt-d base security → **Disabled**
-   - Thunderbolt Boot Support → **BootOnce**
+   - Thunderbolt Boot Support → **Boot once**
    - Wake From Thunderbolt(TM) Devices → **Enabled**
    - Security Level → **No Security**
    - Discrete Thunderbolt(TM) Configuration
