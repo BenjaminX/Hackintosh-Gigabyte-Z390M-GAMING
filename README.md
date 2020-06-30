@@ -3,7 +3,7 @@ Only for [OpenCore](https://github.com/acidanthera/OpenCorePkg) bootloader, not 
 
 ## Gigabyte Z390M GAMING hackintosh by OpenCore
 
-Verified working with macOS version 10.15.5 (19F101) Catalina
+Verified working with macOS version 10.15.5 (19F2200) Catalina
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -15,8 +15,10 @@ Verified working with macOS version 10.15.5 (19F101) Catalina
 
 ## Updates log
 
-**Wakeup issues was still not fixed and resolved, wakened some applications freezed. such as Videoproc/Hackintool/Safari play video/etc.**
 
+Date 2020-06-30 / Version 1.3.0
+
+10.15.5 (19F2200) Verified, updates ACPI aml files. Finally fix sleep issues update BIOS file, then flash new BIOS.
 
 Date 2020-06-10 / Version 1.2.0
 
@@ -53,7 +55,7 @@ First inital commits.
 
 Items | Last Version | Comments
 ------------ | ------------- | -------------
-[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/modBIOS_Z390M_Gaming.rom.zip)
+[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mod_Z390MG.F9g.zip)
 [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.5.9 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.5 | 
 [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.0 |
@@ -65,7 +67,7 @@ Items | Last Version | Comments
 
 GA Z390M Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) last version 'F9g'.
 
-**A better way, mod BIOS based on 'F9g' version. Download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it, Easy to go (unlocked CFG, disabled SERIAL PORT and modified startup logo).**
+**A better way, mod BIOS based on 'F9g' version. Download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it, Easy to go (unlocked CFG, disabled SERIAL PORT).**
 
 ## Overview
 Installation is simple, but requires prior knowledge or experience with Hackintoshes. 
@@ -113,6 +115,7 @@ Based on F9g version.
 	- Extreme Memory Profile(X.M.P.) → **Profile 1**
 	- Advanced Memory Settings
 		- Memory Boot Mode → **Enable Fast Boot**
+		- Memory Enhancement Settings → **Enhanced Performance**
 * Settings
 	- Platform Power
 		- Platform Power Management → **Enabled**
@@ -127,7 +130,7 @@ Based on F9g version.
 	- IO Ports
 		- Initial Display Output → **PCIe 1 Slot**
 		- Internal Graphics → **Enabled**
-		- DVMT Pre-Allocated → **128M**
+		- DVMT Pre-Allocated → **64M**
 		- DVMT Total-Gfx Mem → **MAX**
 		- Aperture Size → **256M**
 		- Audio Controller → **Enabled**
@@ -165,7 +168,6 @@ Based on F9g version.
 
 
 ## Tips
-* How to reconfig USB ports? (TBD)
 * How to modify SN/UUID/MLB? (TBD)
 * How to enable High-Speed USB port charging? (TBD)
 * How to refresh Unsigned BIOS file? (TBD)

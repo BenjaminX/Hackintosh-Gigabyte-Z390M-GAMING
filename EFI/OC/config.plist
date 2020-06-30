@@ -8,15 +8,39 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>FIX RTC</string>
+				<string>Power Management</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-ARTC.aml</string>
+				<string>SSDT-PLUG-DRTNIA.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>USB Port</string>
+				<string>NVRAM(PMC)</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PMC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>[Start up automatically after a power failure] iMac/Mac mini</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PM.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Embedded Controllers</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-EC-USBX-DESKTOP.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Ports</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -24,79 +48,15 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>add PNP0200</string>
+				<string>Backlight</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-DMAC.aml</string>
+				<string>SSDT-PNLF-CFL.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>add EC</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-EC-USBX.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>add MCHC</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-MCHC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>add PNP0C01</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-MEM2.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>ADD APP9876 FOR NVRAM</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PMCR.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>ADD 0X001F0002</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PPMC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>fix SBUS</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-SBUS.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>PLUG X86</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XCPM.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>ADD XSPI</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XSPI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>TB3</string>
+				<string>Thunderbolt 3</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -104,7 +64,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>TB3_HotPlug</string>
+				<string>Thunderbolt HotPlug</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -195,32 +155,6 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data></data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Rename EC0 to EC (USB Power)</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>RUMwXw==</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>RUNfXw==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -349,11 +283,11 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>BwCbPg==</data>
+				<data>AwCYPg==</data>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,2,0</string>
 				<key>device_type</key>
-				<string>VGA compatible controller</string>
+				<string>Display controller</string>
 				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con0-busid</key>
@@ -411,9 +345,9 @@
 				<key>framebuffer-stolenmem</key>
 				<data>AACQAw==</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>AAAAYA==</data>
+				<data>AAAAgA==</data>
 				<key>model</key>
-				<string>3rd Gen Core processor Graphics Controller</string>
+				<string>Intel UHD Graphics 630</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -441,13 +375,29 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
+				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Audio Drvier</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AppleALC</string>
+				<key>MaxKernel</key>
 				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>IntelMausi.kext</string>
+				<key>Comment</key>
+				<string>LAN Drviers for I219V</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelMausi</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -489,38 +439,6 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>RadeonBoost.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/PropertyInjector</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
 				<string>SMC emulator</string>
@@ -528,22 +446,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VirtualSMC</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>SMCProcessor.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCProcessor</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -569,13 +471,13 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>AppleALC.kext</string>
+				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
-				<string>Audio Drvier</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AppleALC</string>
+				<string>Contents/MacOS/SMCProcessor</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -585,13 +487,29 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>IntelMausi.kext</string>
+				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>LAN Drviers for I219V</string>
+				<string>Video Card</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IntelMausi</string>
+				<string>Contents/MacOS/WhateverGreen</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>RadeonBoost.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/PropertyInjector</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -832,9 +750,9 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<true/>
+			<false/>
 			<key>ApplePanic</key>
-			<true/>
+			<false/>
 			<key>DisableWatchDog</key>
 			<false/>
 			<key>DisplayDelay</key>
@@ -960,7 +878,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>slide=0 darkwake=0 shikigva=80 alcid=1</string>
+				<string>shikigva=80 alcid=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1130,7 +1048,7 @@
 		<key>ProtocolOverrides</key>
 		<dict>
 			<key>AppleAudio</key>
-			<true/>
+			<false/>
 			<key>AppleBootPolicy</key>
 			<false/>
 			<key>AppleDebugLog</key>
@@ -1152,7 +1070,7 @@
 			<key>DeviceProperties</key>
 			<false/>
 			<key>FirmwareVolume</key>
-			<true/>
+			<false/>
 			<key>HashServices</key>
 			<false/>
 			<key>OSInfo</key>
