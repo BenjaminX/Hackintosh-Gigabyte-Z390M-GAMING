@@ -80,7 +80,7 @@ Components | Recommended SKU | Comments
 **CPU** | Intel i7-9700K | 8th/9th-gen both fine (9900K/9700/8700/etc)
 **Motherboard** | Gigabyte Z390M Gaming mATX | Not interchangeable with other SKUs
 **WiFi Adapter** | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including NGFF to M.2 Adapter)
-Graphics Card | Dataland RX 580 8G X-Serial God of War **2304SP** | **DO NOT USE 2048SP VERSION** / Recommend upgrade to Sapphire 5700XT
+**Graphics Card** | Dataland RX 580 8G X-Serial God of War **2304SP** | **DO NOT USE 2048SP VERSION** / Recommend upgrade to Sapphire RX5700XT/RX5500XT
 Thunderbolt Card | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified (Need hard-flash)
 SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW, Recommend upgrade to 1TB
 RAM | Corsair Vengeance LPX 64GB (2x32GB) DDR4 | Recommend 3200MHz / 3600MHz
