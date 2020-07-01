@@ -1,7 +1,7 @@
 # Hackintosh-Gigabyte-Z390M-GAMING
-Only for [OpenCore](https://github.com/acidanthera/OpenCorePkg) bootloader, not support Clover.
+[OpenCore](https://github.com/acidanthera/OpenCorePkg) bootloader ONLY, Clover not supported.
 
-## Gigabyte Z390M GAMING hackintosh by OpenCore
+## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
 Verified working with macOS version 10.15.5 (19F2200) Catalina
 
@@ -9,7 +9,7 @@ Verified working with macOS version 10.15.5 (19F2200) Catalina
 
 ## Important! Important! Important!
 
-**YOU MUST be modify SN/UUID/MLB/ROM in config.plist file.**
+**YOU MUST modify SN/UUID/MLB/ROM values in config.plist file.**
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 
@@ -65,37 +65,37 @@ Items | Last Version | Comments
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.3 |
 
 
-GA Z390M Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) last version 'F9g'.
+For GA-Z390M-Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) to the latest version 'F9g'.
 
-**A better way, mod BIOS based on 'F9g' version. Download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it, Easy to go (unlocked CFG, disabled SERIAL PORT).**
+**You can also try this optimized modded BIOS based on 'F9g' version. Download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it for extended functionalities (CFG unlocked, SERIAL PORT disabled).**
 
 ## Overview
-Installation is simple, but requires prior knowledge or experience with Hackintoshes. 
-It's both simple and complicated, in the easiest way, refer directly to the here.
+Installation procedure is quite straightforward, but requires prior knowledge or experience with Hackintoshes. 
+It can be simple and complicated at the same time, refer directly to this manual for a better experience.
 
 
 ## Hardware
-Components | Brand | Comments
+Components | Recommended SKU | Comments
 ------------ | ------------- | -------------
-CPU | Intel i7 9700K | 8th/9th-gen both fine (9900K/9700/8700/etc)
-Motherboard | Gigabyte Z390M Gaming mATX | Only support
-WiFi Card | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including NGFF to M.2 Adapter)
-Graphic Card | Dataland RX 580 8G X-Serial God of War **2304SP** | **Don't buy 2048SP** / Recommend Sapphire 5700XT
+**CPU** | Intel i7-9700K | 8th/9th-gen both fine (9900K/9700/8700/etc)
+**Motherboard** | Gigabyte Z390M Gaming mATX | Not interchangeable with other SKUs
+**WiFi Adapter** | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including NGFF to M.2 Adapter)
+Graphics Card | Dataland RX 580 8G X-Serial God of War **2304SP** | **DO NOT USE 2048SP VERSION** / Recommend upgrade to Sapphire 5700XT
 Thunderbolt Card | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified (Need hard-flash)
-SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW, Recommend upgrade 1TB
-RAM | Corsair Vengeance LPX 64GB (2x32GB) DDR4 | Recommend 3200MHz / Better 3600HMz
-Power Case | Seasonic Focus Plus 650FX | Recommend upgrade GX850 / GX1000
-Box Case | Jonsbo RM2 ATX | Silver
-CPU Cooler | Jonsbo TW2-240 | 601 version
+SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW, Recommend upgrade to 1TB
+RAM | Corsair Vengeance LPX 64GB (2x32GB) DDR4 | Recommend 3200MHz / 3600MHz
+PSU | Seasonic Focus Plus 650FX | Recommend upgrade to GX850 / GX1000
+PC Case | Jonsbo RM2 ATX | Silver
+CPU Cooler | Jonsbo TW2-240 | Version 601
 SSD Cooler | CRYORIG Frostbit (M.2) | 
 Cooling Fan | Noctua NF-F12 PWM | 12cm
 Monitors | Cinema Display 24 & AOC U2790PQU IPS 4K | ACD 24 including Camera / Mic / USB hub / Speaker
-Keyboard & Mouse | Magic Keyboard & Magic Mouse 2 & Magic Trackpad 2 | Wireless first
-Hard Disk | Seagate BarraCuda 2TB 2.5 Inch | Backup / Time Machine
+Keyboard & Mouse | Magic Keyboard & Magic Mouse 2 & Magic Trackpad 2 | Prefer wireless
+Hard Disk | Seagate BarraCuda 2TB 2.5 Inch | For backup / Time Machine
 
-**The three most important components: MotherBoard / GraphicCard / WiFiCard, it must be respected follow above list.**
+**IMPORTANT: Core components (Motherboard / Graphics Card / WiFi Adapter) are CRUCIAL and you HAVE TO follow the instructions above.**
 
-If you wanted smoothly using AirDrop / AirPlay / Sidecar / Handoff / iMessage / Facetime / Contiuenity / etc, very important which wifi card you choose. **Strongly recommend buying one of three BCM94360CD/BCM943602CDP/BCM943602CS**
+If you want a smooth experience using wireless functionalities such as AirDrop / AirPlay / Sidecar / Handoff / iMessage / Facetime / Contiuenity / etc, only a specific range of wifi adapters are recommended: **BCM94360CD/BCM943602CDP/BCM943602CS**
 
 
 ## BIOS Setting
@@ -168,10 +168,10 @@ Based on F9g version.
 
 
 ## Tips
-* How to modify SN/UUID/MLB? (TBD)
-* How to enable High-Speed USB port charging? (TBD)
-* How to refresh Unsigned BIOS file? (TBD)
-* How to hard-flash GC-TITAN RIDGE BIOS and SSDT patched it？Ref here [Post 1](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1640#post-2087524) [Post 2](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1624#post-2086862) [Post 3](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge.md) [Post 4](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge-CustomFirmware.md)
+* How to modify SN/UUID/MLB? (WIP)
+* How to enable High-Speed USB port charging? (WIP)
+* How to refresh Unsigned BIOS file? (WIP)
+* How to hard-flash GC-TITAN RIDGE BIOS with SSDT patched? Ref here [Post 1](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1640#post-2087524) [Post 2](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1624#post-2086862) [Post 3](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge.md) [Post 4](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge-CustomFirmware.md)
 
 
 ## Not Working / Issues
@@ -193,7 +193,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [FreeDOS](http://www.freedos.org/download/)
 
 
-## Reference
+## References
 * [https://github.com/iGuan7u/OpenCore-Gigabyte-Z390M-Gaming](https://github.com/iGuan7u/OpenCore-Gigabyte-Z390M-Gaming)
 * [https://github.com/wellsgz/Opencore-Gigabyte-Z390M-Gaming-Hackintosh](https://github.com/wellsgz/Opencore-Gigabyte-Z390M-Gaming-Hackintosh)
 * [https://www.tonymacx86.com/threads/gigabyte-z390-m-gaming-build-with-working-nvram.291193/](https://www.tonymacx86.com/threads/gigabyte-z390-m-gaming-build-with-working-nvram.291193/)
@@ -201,7 +201,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [https://dortania.github.io/Getting-Started-With-ACPI/](https://dortania.github.io/Getting-Started-With-ACPI/)
 
 
-## System ScreenShot
+## System ScreenShots
 ![Display](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/Display.png?raw=true)
 ![RAM](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/RAM.png?raw=true)
 ![H264H265](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/H264H265.png?raw=true)
@@ -210,7 +210,3 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 ![TB3](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/tb3.png?raw=true)
 ![TB3PCI](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/tb3pci.png?raw=true)
 ![SSD](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/SSD.png?raw=true)
-
-
-
-
