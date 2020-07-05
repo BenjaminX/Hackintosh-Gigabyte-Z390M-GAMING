@@ -82,8 +82,8 @@ Components | Recommended SKU | Comments
 **WiFi Adapter** | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including NGFF to M.2 Adapter)
 **Graphics Card** | Dataland RX 580 8G X-Serial God of War **2304SP** | **DO NOT USE 2048SP VERSION** / Recommend upgrade to Sapphire RX5700XT/RX5500XT
 Thunderbolt Card | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified (Need hard-flash)
-SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW, Recommend upgrade to 1TB
-RAM | Corsair Vengeance LPX 64GB (2x32GB) DDR4 | Recommend 3200MHz / 3600MHz
+SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW, Recommend upgrade to Samsung 970 Pro 1TB
+RAM | Corsair Vengeance LPX 64GB (2x32GB) DDR4 X.M.P | Recommend 3200MHz / Better 3600MHz
 PSU | Seasonic Focus Plus 650FX | Recommend upgrade to GX850 / GX1000
 PC Case | Jonsbo RM2 ATX | Silver
 CPU Cooler | Jonsbo TW2-240 | Version 601
@@ -118,10 +118,7 @@ Based on F9g version.
 		- Memory Enhancement Settings → **Enhanced Performance**
 * Settings
 	- Platform Power
-		- Platform Power Management → **Enabled**
-			- PEG ASPM → **Enabled**
-			- PCH ASPM → **Enabled**
-			- DMI ASPM → **Disabled**
+		- Platform Power Management → **Disabled**
 		- AC Back → **Always On**
 		- ErP → **Disabled**
 		- Soft-Off by PWR-BTTN → **Delay 4 Sec.**
@@ -168,9 +165,9 @@ Based on F9g version.
 
 
 ## Tips
-* How to modify SN/UUID/MLB? (WIP)
-* How to enable High-Speed USB port charging? (WIP)
-* How to refresh Unsigned BIOS file? (WIP)
+* How to modify SN/UUID/MLB? (TBD)
+* How to enable High-Speed USB port charging? (TBD)
+* How to refresh Unsigned BIOS file? (TBD)
 * How to hard-flash GC-TITAN RIDGE BIOS with SSDT patched? Ref here [Post 1](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1640#post-2087524) [Post 2](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1624#post-2086862) [Post 3](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge.md) [Post 4](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge-CustomFirmware.md)
 
 
@@ -196,6 +193,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 ## References
 * [https://github.com/iGuan7u/OpenCore-Gigabyte-Z390M-Gaming](https://github.com/iGuan7u/OpenCore-Gigabyte-Z390M-Gaming)
 * [https://github.com/wellsgz/Opencore-Gigabyte-Z390M-Gaming-Hackintosh](https://github.com/wellsgz/Opencore-Gigabyte-Z390M-Gaming-Hackintosh)
+* [https://github.com/sarkrui/Hackintosh-Z390-Aorus-Pro-9700K-RX580](https://github.com/sarkrui/Hackintosh-Z390-Aorus-Pro-9700K-RX580)
 * [https://www.tonymacx86.com/threads/gigabyte-z390-m-gaming-build-with-working-nvram.291193/](https://www.tonymacx86.com/threads/gigabyte-z390-m-gaming-build-with-working-nvram.291193/)
 * [https://dortania.github.io/OpenCore-Desktop-Guide/](https://dortania.github.io/OpenCore-Desktop-Guide/)
 * [https://dortania.github.io/Getting-Started-With-ACPI/](https://dortania.github.io/Getting-Started-With-ACPI/)

@@ -18,6 +18,12 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "_UIAC", 0)
                           "UsbConnector", 0,
                           "port", Buffer() { 0x01, 0x00, 0x00, 0x00 },
                       },
+                      "HS02", Package()
+                      {
+                          "name", Buffer() { "HS02" },
+                          "UsbConnector", 0,
+                          "port", Buffer() { 0x02, 0x00, 0x00, 0x00 },
+                      },
                       "HS03", Package()
                       {
                           "name", Buffer() { "HS03" },
@@ -33,7 +39,7 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "_UIAC", 0)
                       "HS05", Package()
                       {
                           "name", Buffer() { "HS05" },
-                          "UsbConnector", 255,
+                          "UsbConnector", 0,
                           "port", Buffer() { 0x05, 0x00, 0x00, 0x00 },
                       },
                       "HS06", Package()
@@ -54,28 +60,28 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "_UIAC", 0)
                           "UsbConnector", 0,
                           "port", Buffer() { 0x08, 0x00, 0x00, 0x00 },
                       },
+                      "HS09", Package()
+                      {
+                          "name", Buffer() { "HS09" },
+                          "UsbConnector", 0,
+                          "port", Buffer() { 0x09, 0x00, 0x00, 0x00 },
+                      },
                       "HS10", Package()
                       {
                           "name", Buffer() { "HS10" },
-                          "UsbConnector", 255,
+                          "UsbConnector", 0,
                           "port", Buffer() { 0x0A, 0x00, 0x00, 0x00 },
                       },
                       "HS11", Package()
                       {
                           "name", Buffer() { "HS11" },
-                          "UsbConnector", 0,
+                          "UsbConnector", 255,
                           "port", Buffer() { 0x0B, 0x00, 0x00, 0x00 },
-                      },
-                      "HS12", Package()
-                      {
-                          "name", Buffer() { "HS12" },
-                          "UsbConnector", 0,
-                          "port", Buffer() { 0x0C, 0x00, 0x00, 0x00 },
                       },
                       "SS02", Package()
                       {
                           "name", Buffer() { "SS02" },
-                          "UsbConnector", 3,
+                          "UsbConnector", 10,
                           "port", Buffer() { 0x12, 0x00, 0x00, 0x00 },
                       },
                       "SS03", Package()
