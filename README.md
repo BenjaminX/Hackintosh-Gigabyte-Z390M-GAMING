@@ -15,6 +15,9 @@ Verified working with macOS version 10.15.5 (19F2200) Catalina
 
 ## Updates log
 
+Date 2020-07-05 / Version 1.4.0
+
+Waiting for OC 0.6.0 release, Optimized some kexts and ACPI aml files.
 
 Date 2020-06-30 / Version 1.3.0
 
