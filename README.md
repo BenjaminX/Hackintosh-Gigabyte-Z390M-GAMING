@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 10.15.5 (19F2200) Catalina
+Verified working with macOS version 10.15.6 (19G73) Catalina
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -14,6 +14,10 @@ Verified working with macOS version 10.15.5 (19F2200) Catalina
 
 
 ## Updates log
+
+Date 2020-07-05 / Version 1.5.0
+
+Upgrade to 10.15.6 (19G73) and verified, but OpenCore 0.6.0 not release,waiting for 1.6.0.
 
 Date 2020-07-05 / Version 1.4.0
 
@@ -125,7 +129,7 @@ Based on F9g version.
 		- AC Back → **Always On**
 		- ErP → **Disabled**
 		- Soft-Off by PWR-BTTN → **Delay 4 Sec.**
-		- Power Loading → **Auto**
+		- Power Loading → **Enabled**
 		- RC6(Render Standby) → **Enabled**
 	- IO Ports
 		- Initial Display Output → **PCIe 1 Slot**
