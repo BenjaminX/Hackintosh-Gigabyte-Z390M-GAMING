@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 10.15.6 (19G73) Catalina
+Verified working with macOS version 10.15.6 (19G73) Catalina and OpenCore 0.6.0
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -15,9 +15,13 @@ Verified working with macOS version 10.15.6 (19G73) Catalina
 
 ## Updates log
 
+Date 2020-08-04 / Version 1.6.0
+
+Upgrade to OpenCore 0.6.0 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
+
 Date 2020-07-05 / Version 1.5.0
 
-Upgrade to 10.15.6 (19G73) and verified, but OpenCore 0.6.0 not release,waiting for 1.6.0.
+Upgrade to 10.15.6 (19G73) and verified, but OpenCore 0.6.0 not release, waiting for 1.6.0.
 
 Date 2020-07-05 / Version 1.4.0
 
@@ -63,18 +67,18 @@ First inital commits.
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mod_Z390MG.F9g.zip)
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.5.9 |
-[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.5 | 
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.0 |
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.4 |
-[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.0 |
-[NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.2 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.0 |
+[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.6 | 
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.1 |
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.5 |
+[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.1 |
+[NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.3 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.3 |
 
 
 For GA-Z390M-Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) to the latest version 'F9g'.
 
-**You can also try this optimized modded BIOS based on 'F9g' version. Download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it for extended functionalities (CFG unlocked, SERIAL PORT disabled).**
+**Highly recommended to try this optimized modded BIOS based on 'F9g' version. Download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it for extended functionalities (CFG unlocked, SERIAL PORT disabled).**
 
 ## Overview
 Installation procedure is quite straightforward, but requires prior knowledge or experience with Hackintoshes. 
@@ -87,7 +91,7 @@ Components | Recommended SKU | Comments
 **CPU** | Intel i7-9700K | 8th/9th-gen both fine (9900K/9700/8700/etc)
 **Motherboard** | Gigabyte Z390M Gaming mATX | Not interchangeable with other SKUs
 **WiFi Adapter** | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including NGFF to M.2 Adapter)
-**Graphics Card** | Dataland RX 580 8G X-Serial God of War **2304SP** | **DO NOT USE 2048SP VERSION** / Recommend upgrade to Sapphire RX5700XT/RX5500XT
+**Graphics Card** | Dataland RX 580 8G X-Serial God of War **2304SP** | **DO NOT USE 2048SP VERSION** / Recommend upgrade to Sapphire RX5700XT/RX5500
 Thunderbolt Card | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified (Need hard-flash)
 SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW, Recommend upgrade to Samsung 970 Pro 1TB
 RAM | Corsair Vengeance LPX 64GB (2x32GB) DDR4 X.M.P | Recommend 3200MHz / Better 3600MHz
@@ -191,6 +195,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [NVMeFix](https://github.com/acidanthera/NVMeFix)
 * [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all)
 * [OpenCore Configurator](https://mackie100projects.altervista.org/category/opencore-configurator-changelog/)
+* [OcBinaryData](https://github.com/acidanthera/OcBinaryData)
 * [Hackintool](https://github.com/headkaze/Hackintool)
 * [PLIST Editor](https://apps.apple.com/us/app/plist-editor/id1157491961?mt=12)
 * [Sanity Checker for config.plist](https://opencore.slowgeek.com)
