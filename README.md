@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 10.15.6 (19G73) Catalina and OpenCore 0.6.0
+Verified working with macOS version 10.15.6 (19G2021) Catalina and OpenCore 0.6.0
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -14,53 +14,43 @@ Verified working with macOS version 10.15.6 (19G73) Catalina and OpenCore 0.6.0
 
 
 ## Updates log
+Date 2020-08-14 / Version 1.6.1
+Verified working with 10.15.6 (19G2021)
 
 Date 2020-08-04 / Version 1.6.0
-
 Upgrade to OpenCore 0.6.0 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
 
 Date 2020-07-05 / Version 1.5.0
-
 Upgrade to 10.15.6 (19G73) and verified, but OpenCore 0.6.0 not release, waiting for 1.6.0.
 
 Date 2020-07-05 / Version 1.4.0
-
 Waiting for OC 0.6.0 release, Optimized some kexts and ACPI aml files.
 
 Date 2020-06-30 / Version 1.3.0
-
 10.15.5 (19F2200) Verified, updates ACPI aml files. Finally, fixed sleep issues, update BIOS file, then flash new BIOS.
 
 Date 2020-06-10 / Version 1.2.0
-
 Gigabyte GC-TITAN RIDGE supported, pls ref how to hard-flash BIOS.
 
 Date 2020-06-03 / Version 1.1.0
-
 Fixed wakeup issues some applications was freeze.
 
 Date 2020-06-03 / Version 1.0.1
-
 Fixed H.264/H.265 supported.
 
 Date 2020-06-02 / Version 1.0.0
-
 Final Release 1.0.0, 10.15.5 (19F101) well done, OC 0.5.9 and Kexts updates.
 
 Date 2020-05-26 / Version 0.0.9
-
 Prepare to release 1.0.0, waiting 10.15.5 version to publish to App Store.
 
 Date 2020-05-24 / Version 0.0.3
-
 Upload some kexts files.
 
 Date 2020-05-14 / Version 0.0.2
-
 Upload mod BIOS based on 'F9g'.
 
 Date 2020-05-11 / Version 0.0.1
-
 First inital commits.
 
 
