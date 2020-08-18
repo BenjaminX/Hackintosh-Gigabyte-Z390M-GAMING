@@ -59,7 +59,7 @@ First inital commits.
 
 Items | Last Version | Comments
 ------------ | ------------- | -------------
-[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mod_Z390MG.F9g.zip)
+[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/[original]-mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mod_Z390MG.F9g.zip)
 [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.0 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.6 | 
 [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.1 |
@@ -199,8 +199,9 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [https://github.com/iGuan7u/OpenCore-Gigabyte-Z390M-Gaming](https://github.com/iGuan7u/OpenCore-Gigabyte-Z390M-Gaming)
 * [https://github.com/wellsgz/Opencore-Gigabyte-Z390M-Gaming-Hackintosh](https://github.com/wellsgz/Opencore-Gigabyte-Z390M-Gaming-Hackintosh)
 * [https://github.com/sarkrui/Hackintosh-Z390-Aorus-Pro-9700K-RX580](https://github.com/sarkrui/Hackintosh-Z390-Aorus-Pro-9700K-RX580)
+* [https://github.com/blacklizard/gigabyte-z390-aorus-pro-wifi-hackintosh-opencore](https://github.com/blacklizard/gigabyte-z390-aorus-pro-wifi-hackintosh-opencore)
 * [https://www.tonymacx86.com/threads/gigabyte-z390-m-gaming-build-with-working-nvram.291193/](https://www.tonymacx86.com/threads/gigabyte-z390-m-gaming-build-with-working-nvram.291193/)
-* [https://dortania.github.io/OpenCore-Desktop-Guide/](https://dortania.github.io/OpenCore-Desktop-Guide/)
+* [https://dortania.github.io/OpenCore-Install-Guide/](https://dortania.github.io/OpenCore-Install-Guide/)
 * [https://dortania.github.io/Getting-Started-With-ACPI/](https://dortania.github.io/Getting-Started-With-ACPI/)
 
 
