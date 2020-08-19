@@ -13,7 +13,7 @@ Verified working with macOS version 10.15.6 (19G2021) Catalina and OpenCore 0.6.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 
-## Updates log
+## Updates
 Date 2020-08-18 / Version 1.6.2
 Fixed GFX frequency to 1.2Ghz 
 
@@ -102,7 +102,7 @@ Hard Disk | Seagate BarraCuda 2TB 2.5 Inch | For backup / Time Machine
 If you want a smooth experience using wireless functionalities such as AirDrop / AirPlay / Sidecar / Handoff / iMessage / Facetime / Contiuenity / etc, only a specific range of wifi adapters are recommended: **BCM94360CD/BCM943602CDP/BCM943602CS**
 
 
-## BIOS Setting
+## BIOS Settings
 
 Based on F9g version.
 
