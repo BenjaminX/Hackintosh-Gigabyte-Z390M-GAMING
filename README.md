@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 10.15.6 (19G2021) Catalina and OpenCore 0.6.0
+Verified working with macOS version 10.15.6 (19G2021) Catalina and OpenCore 0.6.1
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -14,6 +14,9 @@ Verified working with macOS version 10.15.6 (19G2021) Catalina and OpenCore 0.6.
 
 
 ## Updates
+Date 2020-09-09 / Version 1.6.3
+Upgrade to OpenCore 0.6.1 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
+
 Date 2020-08-18 / Version 1.6.2
 Fixed GFX frequency to 1.2Ghz 
 
@@ -60,11 +63,11 @@ First inital commits.
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/[original]-mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mod_Z390MG.F9g.zip)
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.0 |
-[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.6 | 
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.1 |
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.5 |
-[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.1 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.1 |
+[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.7 | 
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.2 |
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.6 |
+[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.2 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.3 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.3 |
 
