@@ -14,49 +14,48 @@ Verified working with macOS version 10.15.6 (19G2021) Catalina and OpenCore 0.6.
 
 
 ## Updates
-Date 2020-09-09 / Version 1.6.3
-Upgrade to OpenCore 0.6.1 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
+2020-09-09 / Version 1.6.3 Upgrade to OpenCore 0.6.1 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
 
-Date 2020-08-18 / Version 1.6.2
+2020-08-18 / Version 1.6.2
 Fixed GFX frequency to 1.2Ghz 
 
-Date 2020-08-14 / Version 1.6.1
+2020-08-14 / Version 1.6.1
 Verified working with 10.15.6 (19G2021)
 
-Date 2020-08-04 / Version 1.6.0
+2020-08-04 / Version 1.6.0
 Upgrade to OpenCore 0.6.0 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
 
-Date 2020-07-05 / Version 1.5.0
+2020-07-05 / Version 1.5.0
 Upgrade to 10.15.6 (19G73) and verified, but OpenCore 0.6.0 not release, waiting for 1.6.0.
 
-Date 2020-07-05 / Version 1.4.0
+2020-07-05 / Version 1.4.0
 Waiting for OC 0.6.0 release, Optimized some kexts and ACPI aml files.
 
-Date 2020-06-30 / Version 1.3.0
+2020-06-30 / Version 1.3.0
 10.15.5 (19F2200) Verified, updates ACPI aml files. Finally, fixed sleep issues, update BIOS file, then flash new BIOS.
 
-Date 2020-06-10 / Version 1.2.0
+2020-06-10 / Version 1.2.0
 Gigabyte GC-TITAN RIDGE supported, pls ref how to hard-flash BIOS.
 
-Date 2020-06-03 / Version 1.1.0
+2020-06-03 / Version 1.1.0
 Fixed wakeup issues some applications was freeze.
 
-Date 2020-06-03 / Version 1.0.1
+2020-06-03 / Version 1.0.1
 Fixed H.264/H.265 supported.
 
-Date 2020-06-02 / Version 1.0.0
+2020-06-02 / Version 1.0.0
 Final Release 1.0.0, 10.15.5 (19F101) well done, OC 0.5.9 and Kexts updates.
 
-Date 2020-05-26 / Version 0.0.9
+2020-05-26 / Version 0.0.9
 Prepare to release 1.0.0, waiting 10.15.5 version to publish to App Store.
 
-Date 2020-05-24 / Version 0.0.3
+2020-05-24 / Version 0.0.3
 Upload some kexts files.
 
-Date 2020-05-14 / Version 0.0.2
+2020-05-14 / Version 0.0.2
 Upload mod BIOS based on 'F9g'.
 
-Date 2020-05-11 / Version 0.0.1
+2020-05-11 / Version 0.0.1
 First inital commits.
 
 
@@ -90,7 +89,7 @@ Components | Recommended SKU | Comments
 **Graphics Card** | Dataland RX 580 8G X-Serial God of War **2304SP** | **DO NOT USE 2048SP VERSION** / Recommend upgrade to Sapphire RX5700XT/RX5500
 Thunderbolt Card | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified (Need hard-flash)
 SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW, Recommend upgrade to Samsung 970 Pro 1TB
-RAM | Corsair Vengeance LPX 64GB (2x32GB) DDR4 X.M.P | Recommend 3200MHz / Better 3600MHz
+RAM | Corsair Vengeance LPX 64GB (2x32GB) DDR4 X.M.P | Recommend 3200MHz / Better 3600MHz 4x32GB = 128GB
 PSU | Seasonic Focus Plus 650FX | Recommend upgrade to GX850 / GX1000
 PC Case | Jonsbo RM2 ATX | Silver
 CPU Cooler | Jonsbo TW2-240 | Version 601
