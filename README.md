@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 10.15.6 (19G2021) Catalina and OpenCore 0.6.1
+Verified working with macOS version 10.15.7 (19H2) Catalina and OpenCore 0.6.1
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -14,7 +14,8 @@ Verified working with macOS version 10.15.6 (19G2021) Catalina and OpenCore 0.6.
 
 
 ## Updates
-2020-09-09 / Version 1.6.3 Upgrade to OpenCore 0.6.1 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
+2020-09-09 / Version 1.6.3
+Upgrade to OpenCore 0.6.1 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
 
 2020-08-18 / Version 1.6.2
 Fixed GFX frequency to 1.2Ghz 
@@ -86,17 +87,17 @@ Components | Recommended SKU | Comments
 **CPU** | Intel i7-9700K | 8th/9th-gen both fine (9900K/9700/8700/etc)
 **Motherboard** | Gigabyte Z390M Gaming mATX | Not interchangeable with other SKUs
 **WiFi Adapter** | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including NGFF to M.2 Adapter)
-**Graphics Card** | Dataland RX 580 8G X-Serial God of War **2304SP** | **DO NOT USE 2048SP VERSION** / Recommend upgrade to Sapphire RX5700XT/RX5500
+**Graphics Card** | Dataland RX 580 8G X-Serial God of War **2304SP** | **DO NOT USE 2048SP VERSION**
 Thunderbolt Card | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified (Need hard-flash)
-SSD | Samsung 960 PRO M.2 NVMe 512G | MZ-V6P512BW, Recommend upgrade to Samsung 970 Pro 1TB
+SSD | Samsung 960 PRO M.2 NVMe 512G | Recommend upgrade to Samsung 970 Pro 1TB
 RAM | Corsair Vengeance LPX 64GB (2x32GB) DDR4 X.M.P | Recommend 3200MHz / Better 3600MHz 4x32GB = 128GB
 PSU | Seasonic Focus Plus 650FX | Recommend upgrade to GX850 / GX1000
 PC Case | Jonsbo RM2 ATX | Silver
 CPU Cooler | Jonsbo TW2-240 | Version 601
 SSD Cooler | CRYORIG Frostbit (M.2) | 
 Cooling Fan | Noctua NF-F12 PWM | 12cm
-Monitors | Cinema Display 24 & AOC U2790PQU IPS 4K | ACD 24 including Camera / Mic / USB hub / Speaker
-Keyboard & Mouse | Magic Keyboard & Magic Mouse 2 & Magic Trackpad 2 | Prefer wireless
+Monitors | Cinema Display 24 & AOC U2790PQU IPS 4K | ACD 24 including Camera / Mic / Speaker / USB hub
+Keyboard & Mouse | Magic Keyboard & Magic Mouse 2 & Magic Trackpad 2 | Prefer to wireless devices
 Hard Disk | Seagate BarraCuda 2TB 2.5 Inch | For backup / Time Machine
 
 **IMPORTANT: Core components (Motherboard / Graphics Card / WiFi Adapter) are CRUCIAL and you HAVE TO follow the instructions above.**
@@ -118,6 +119,16 @@ Based on F9g version.
 * Tweaker
 	- Advanced CPU Settings
 		- VT-d → **Disabled**
+		- Intel(R) Speed Shift Technology → **Enabled**
+		- Energy Efficient Turbo  → **Enabled**
+		- Intel(R) Turbo Boost Technology → **Enabled**
+		- C-States Control
+			- CPU Enhanced Halt(C1E) → **Enabled**
+			- C3 State Support → **Enabled**
+			- C6/C7 State Support → **Enabled**
+			- C8 State Support → **Enabled**
+			- C10 State Support → **Enabled**
+			- Package C State limit → **Auto**
 	- Extreme Memory Profile(X.M.P.) → **Profile 1**
 	- Advanced Memory Settings
 		- Memory Boot Mode → **Enable Fast Boot**
