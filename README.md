@@ -14,7 +14,7 @@ Verified working with macOS version 10.15.7 (19H2) Catalina and OpenCore 0.6.2
 
 
 ## Updates
-2020-10-06 / Version 1.6.3
+2020-10-06 / Version 1.6.4
 Upgrade to OpenCore 0.6.2 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
 
 2020-09-09 / Version 1.6.3
