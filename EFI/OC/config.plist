@@ -182,8 +182,6 @@
 			<true/>
 			<key>DevirtualiseMmio</key>
 			<true/>
-			<key>DisableLinkeditJettison</key>
-			<false/>
 			<key>DisableSingleUser</key>
 			<false/>
 			<key>DisableVariableWrite</key>
@@ -479,6 +477,8 @@
 		<array/>
 		<key>Emulate</key>
 		<dict>
+			<key>DummyPowerManagement</key>
+			<false/>
 			<key>Cpuid1Data</key>
 			<data></data>
 			<key>Cpuid1Mask</key>
@@ -495,10 +495,10 @@
 				<string>Patch engine</string>
 				<key>Enabled</key>
 				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IONetworkingFamily</string>
 				<key>Identifier</key>
 				<string>com.apple.iokit.IONetworkingFamily</string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IONetworkingFamily</string>
 				<key>MaxKernel</key>
 				<string>13.99.99</string>
 				<key>MinKernel</key>
@@ -692,6 +692,8 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>LegacyCommpage</key>
+			<false/>
 			<key>AppleCpuPmCfgLock</key>
 			<false/>
 			<key>AppleXcpmCfgLock</key>
@@ -704,9 +706,9 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
-			<key>DisableRtcChecksum</key>
+			<key>DisableLinkeditJettison</key>
 			<false/>
-			<key>DummyPowerManagement</key>
+			<key>DisableRtcChecksum</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
@@ -977,7 +979,7 @@
 			<key>MLB</key>
 			<string>ChangeMe</string>
 			<key>ROM</key>
-			<data>AAAAFwA=</data>
+			<data>AAAAABeD</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>

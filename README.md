@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 10.15.7 (19H2) Catalina and OpenCore 0.6.1
+Verified working with macOS version 10.15.7 (19H2) Catalina and OpenCore 0.6.2
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -14,6 +14,9 @@ Verified working with macOS version 10.15.7 (19H2) Catalina and OpenCore 0.6.1
 
 
 ## Updates
+2020-10-06 / Version 1.6.3
+Upgrade to OpenCore 0.6.2 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
+
 2020-09-09 / Version 1.6.3
 Upgrade to OpenCore 0.6.1 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
 
@@ -63,13 +66,13 @@ First inital commits.
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/[original]-mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mod_Z390MG.F9g.zip)
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.1 |
-[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.7 | 
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.2 |
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.6 |
-[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.2 |
-[NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.3 |
-[IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.3 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.2 |
+[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.8 | 
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.3 |
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.7 |
+[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.3 |
+[NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.4 |
+[IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.4 |
 
 
 For GA-Z390M-Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) to the latest version 'F9g'.
