@@ -14,6 +14,9 @@ Verified working with macOS version 10.15.7 (19H2) Catalina and OpenCore 0.6.2
 
 
 ## Updates
+2020-10-12 / Version 1.6.5
+BIOS F9k beta version, CFG unlock/SERIAL PORT disabled options in BIOS settings and BIOS file was signed. Fixed TB3 ACPI bugs.
+
 2020-10-06 / Version 1.6.4
 Upgrade to OpenCore 0.6.2 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
 
@@ -65,7 +68,7 @@ First inital commits.
 
 Items | Last Version | Comments
 ------------ | ------------- | -------------
-[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9g | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/[original]-mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mod_Z390MG.F9g.zip)
+[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9k beta | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/[original]-mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mod_Z390MG.F9g.zip) / [beta BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/Z390MGAMING.F9k.zip)
 [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.2 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.8 | 
 [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.3 |
@@ -75,9 +78,7 @@ Items | Last Version | Comments
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.4 |
 
 
-For GA-Z390M-Gaming motherboard, please upgrade [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) to the latest version 'F9g'.
-
-**Highly recommended to try this optimized modded BIOS based on 'F9g' version. Download [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it for extended functionalities (CFG unlocked, SERIAL PORT disabled).**
+**Highly recommended to try beta BIOS 'F9k' version. Download [beta BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it for CFG unlocked, SERIAL PORT disabled in Settings.**
 
 ## Overview
 Installation procedure is quite straightforward, but requires prior knowledge or experience with Hackintoshes. 
@@ -92,8 +93,8 @@ Components | Recommended SKU | Comments
 **WiFi Adapter** | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including NGFF to M.2 Adapter)
 **Graphics Card** | Dataland RX 580 8G X-Serial God of War **2304SP** | **DO NOT USE 2048SP VERSION**
 Thunderbolt Card | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified (Need hard-flash)
-SSD | Samsung 960 PRO M.2 NVMe 512G | Recommend upgrade to Samsung 970 Pro 1TB
-RAM | Corsair Vengeance LPX 64GB (2x32GB) DDR4 X.M.P | Recommend 3200MHz / Better 3600MHz 4x32GB = 128GB
+SSD | WD Black SN750 NVMe SSD 1TB | Recommend upgrade to Samsung 970 Pro 1TB
+RAM | Corsair Vengeance LPX 128GB (4x32GB) DDR4 X.M.P | Recommend 3200MHz / Better 3600MHz
 PSU | Seasonic Focus Plus 650FX | Recommend upgrade to GX850 / GX1000
 PC Case | Jonsbo RM2 ATX | Silver
 CPU Cooler | Jonsbo TW2-240 | Version 601
@@ -152,6 +153,8 @@ Based on F9g version.
 		- Aperture Size → **256M**
 		- Audio Controller → **Enabled**
     	- Above 4G Decoding → **Enabled**
+    	- Super IO Configuration (based on F9k beta)
+    		- Serial Port → **Disabled**
     	- USB Configuration
     		- XHCI Hand-off → **Enabled**
     		- Legacy USB Support → **Enabled**
@@ -165,8 +168,11 @@ Based on F9g version.
 * System Info.
 	- System Language → **English**
 * Boot
-	- Full Screen LOGO Show → **Enabled**
-	- Fast Boot → **Disabled**
+	- CFG Lock → **Disabled** (based on F9k beta)
+	- Full Screen LOGO Show → **Disabled**
+	- Fast Boot → **Enabled**
+		- PS2 Devices Support → **Disabled**
+		- Next Boot After AC Power Loss → **Fast Boot**
 	- Windows 8/10 Features → **Other OS**
 	- CSM Support → **Disable**
 	- Secure Boot → **Disable** (Secure Boot will be disabled by default, but good to check)
