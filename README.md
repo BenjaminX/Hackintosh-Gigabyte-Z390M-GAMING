@@ -1,17 +1,16 @@
 # Hackintosh-Gigabyte-Z390M-GAMING
-[OpenCore](https://github.com/acidanthera/OpenCorePkg) bootloader ONLY, Clover not supported.
+[OpenCore](https://github.com/acidanthera/OpenCorePkg) bootloader ONLY, Clover not supported (Let it go).
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 10.15.7 (19H2) Catalina and OpenCore 0.6.2
+Verified working with macOS version 10.15.7 (19H2) Catalina and OpenCore 0.6.2. Waiting for Big Sur released will upgrade.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
 ## Important! Important! Important!
 
-**YOU MUST modify SN/UUID/MLB/ROM values in config.plist file.**
+**YOU MUST modify SN/UUID/MLB/ROM values in config.plist file. ROM value is the MAC address of your motherboard built-in network card, check it on BIOS settings.**
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
-
 
 ## Updates
 2020-10-12 / Version 1.6.5
@@ -78,12 +77,11 @@ Items | Last Version | Comments
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.4 |
 
 
-**Highly recommended to try beta BIOS 'F9k' version. Download [beta BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it for CFG unlocked, SERIAL PORT disabled in Settings.**
+**Highly recommended to try beta BIOS 'F9k' version. Download [beta BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it for CFG unlocked, SERIAL PORT disabled from BIOS settings.**
 
 ## Overview
 Installation procedure is quite straightforward, but requires prior knowledge or experience with Hackintoshes. 
 It can be simple and complicated at the same time, refer directly to this manual for a better experience.
-
 
 ## Hardware
 Components | Recommended SKU | Comments
@@ -100,18 +98,17 @@ PC Case | Jonsbo RM2 ATX | Silver
 CPU Cooler | Jonsbo TW2-240 | Version 601
 SSD Cooler | CRYORIG Frostbit (M.2) | 
 Cooling Fan | Noctua NF-F12 PWM | 12cm
-Monitors | Cinema Display 24 & AOC U2790PQU IPS 4K | ACD 24 including Camera / Mic / Speaker / USB hub
+Monitors | LED Cinema Display 24 & AOC U2790PQU IPS 4K & EIZO CX270 2K | ACD 24 including Camera / Mic / Speaker / USB hub
 Keyboard & Mouse | Magic Keyboard & Magic Mouse 2 & Magic Trackpad 2 | Prefer to wireless devices
-Hard Disk | Seagate BarraCuda 2TB 2.5 Inch | For backup / Time Machine
+Hard Disk | Seagate BarraCuda 2TB SATA | For backup / Time Machine
 
 **IMPORTANT: Core components (Motherboard / Graphics Card / WiFi Adapter) are CRUCIAL and you HAVE TO follow the instructions above.**
 
 If you want a smooth experience using wireless functionalities such as AirDrop / AirPlay / Sidecar / Handoff / iMessage / Facetime / Contiuenity / etc, only a specific range of wifi adapters are recommended: **BCM94360CD/BCM943602CDP/BCM943602CS**
 
-
 ## BIOS Settings
 
-Based on F9g version.
+Based on F9k beta version.
 
 #### First setup,
 
@@ -149,7 +146,7 @@ Based on F9g version.
 		- Initial Display Output → **PCIe 1 Slot**
 		- Internal Graphics → **Enabled**
 		- DVMT Pre-Allocated → **64M**
-		- DVMT Total-Gfx Mem → **MAX**
+		- DVMT Total-Gfx Mem → **MAX** (Need reboot)
 		- Aperture Size → **256M**
 		- Audio Controller → **Enabled**
     	- Above 4G Decoding → **Enabled**
@@ -191,9 +188,7 @@ Based on F9g version.
 
 
 ## Tips
-* How to modify SN/UUID/MLB? (TBD)
-* How to enable High-Speed USB port charging? (TBD)
-* How to refresh Unsigned BIOS file? (TBD)
+* How to modify MLB/ROM/SN/UUID? (TBD)
 * How to hard-flash GC-TITAN RIDGE BIOS with SSDT patched? Ref here [Post 1](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1640#post-2087524) [Post 2](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1624#post-2086862) [Post 3](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge.md) [Post 4](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge-CustomFirmware.md)
 
 
