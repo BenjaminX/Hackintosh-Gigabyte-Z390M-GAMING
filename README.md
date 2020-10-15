@@ -222,6 +222,12 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [https://dortania.github.io/Getting-Started-With-ACPI/](https://dortania.github.io/Getting-Started-With-ACPI/)
 
 
+## Geekbench 5 Scores
+![CPU](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/CPUbench.png?raw=true)
+![OpenCL](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/OpenCLbench.png?raw=true)
+![Metal](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/Metalbench.png?raw=true)
+
+
 ## System ScreenShots
 ![Display](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/Display.png?raw=true)
 ![RAM](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/RAM.png?raw=true)
