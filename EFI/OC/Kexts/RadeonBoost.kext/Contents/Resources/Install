@@ -1,0 +1,20 @@
+Das ist zum Testen im laufenden Betrieb
+
+Terminal Kommandos:
+sudo cp -R /Users/Brumbaer/Library/Developer/Xcode/DerivedData/PropertyInjector-esonjdbqkkoeoaanhwjbgeiipzyx/Build/Products/Debug/PropertyInjector.kext /tmp ;
+Kopiert das Kext nach tmp und setzt permissions etc. Nach jeder Änderung bzw. Neustart wieder machen.
+
+kextutil -n -print-diagnostics /tmp/PropertyInjector.kext
+Testet ob das kext alle Bedingungen erfüllt. Braucht man nur wenn es nicht starten will um zu sehen ob man alle Libs hat und so.
+
+sudo kextload /tmp/PropertyInjector.kext
+Lädt das Kext und versucht es zu starten
+
+sudo kextunload /tmp/PropertyInjector.kext
+Stoppt das Kext und wirft es raus. Muss man machen bevor man eine neue Version mit kextload starten kann
+
+log stream --level=debug --predicate 'eventMessage contains "PropertyInjector.hpp"'
+In einem Extra fenster im terminal laufen lassen. Zeigt einem die Treibermeldungen an.
+
+
+
