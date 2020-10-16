@@ -13,6 +13,9 @@ Verified working with macOS version 10.15.7 (19H2) Catalina and OpenCore 0.6.2. 
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
+2020-10-16 / Version 1.6.6
+Completely solve the problem of coordinating work between the built-in graphics card and the discrete graphics card.
+
 2020-10-12 / Version 1.6.5
 BIOS F9k beta version, CFG unlock/SERIAL PORT disabled options in BIOS settings and BIOS file was signed. Fixed TB3 ACPI bugs.
 
@@ -224,8 +227,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 
 ## Geekbench 5 Scores
 ![CPU](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/CPUbench.png?raw=true)
-![OpenCL](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/OpenCLbench.png?raw=true)
-![Metal](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/Metalbench.png?raw=true)
+![OpenCL](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/Videobench.png?raw=true)
 
 
 ## System ScreenShots
