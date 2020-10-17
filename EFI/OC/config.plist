@@ -218,12 +218,43 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL00,DualLink</key>
+				<data>AQAAAA==</data>
+				<key>ATY,Card#</key>
+				<string>109-C94401-00</string>
+				<key>ATY,Copyright</key>
+				<string>Copyright AMD Inc. All Rights Reserved. 2005-2019</string>
+				<key>ATY,DeviceName</key>
+				<string>580X</string>
+				<key>ATY,EFIVersion</key>
+				<string>01.01.183</string>
+				<key>ATY,EFIVersionB</key>
+				<string>113-C944A1XT-014</string>
+				<key>ATY,EFIVersionE</key>
+				<string>113-C9440A-183</string>
+				<key>ATY,FamilyName</key>
+				<string>Radeon Pro</string>
+				<key>ATY,Rom#</key>
+				<string>113-C9440C-171</string>
+				<key>device_type</key>
+				<string>ATY,OrinocoParent</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>AMD Radeon Pro 580X</string>
+				<key>shikigva</key>
+				<integer>80</integer>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>BwCbPg==</data>
+				<data>AwCYPg==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
 				<key>device-id</key>
-				<data>mz4AAA==</data>
+				<data>mD4AAA==</data>
 				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con0-busid</key>
@@ -282,12 +313,8 @@
 				<data>AACQAw==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAYA==</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
-				<key>device_type</key>
-				<string>Display controller</string>
 				<key>hda-gfx</key>
-				<string>onboard-1</string>
+				<string>onboard-2</string>
 				<key>model</key>
 				<string>Intel UHD Graphics 630</string>
 			</dict>
@@ -956,7 +983,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>shikigva=80 alcid=1 igfxfw=2</string>
+				<string>alcid=1 igfxfw=2</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>

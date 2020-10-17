@@ -227,7 +227,8 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 
 ## Geekbench 5 Scores
 ![CPU](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/CPUbench.png?raw=true)
-![OpenCL](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/VideoBench.png?raw=true)
+![OpenCL](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/OpenCLbanche.png?raw=true)
+![CPU](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/Metalebench.png?raw=true)
 
 
 ## System ScreenShots
