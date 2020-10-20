@@ -70,7 +70,7 @@ First inital commits.
 
 Items | Last Version | Comments
 ------------ | ------------- | -------------
-[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9k beta | [original BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/[original]-mb_bios_z390-m-gaming_f9g.zip) / [mod BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/mod_Z390MG.F9g.zip) / [beta BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/raw/master/BIOS/Z390MGAMING.F9k.zip)
+[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9l |
 [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.2 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.8 | 
 [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.3 |
@@ -79,8 +79,8 @@ Items | Last Version | Comments
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.4 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.4 |
 
-
-**Highly recommended to try beta BIOS 'F9k' version. Download [beta BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS) and flash it for CFG unlocked, SERIAL PORT disabled from BIOS settings.**
+**Important! Important! Important**
+**Highly recommended to try the lastest BIOS 'F9l' version. Download [BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS/mb_bios_z390-m-gaming_f9l.zip) and flash it for CFG unlocked, SERIAL PORT disabled from BIOS settings.**
 
 ## Overview
 Installation procedure is quite straightforward, but requires prior knowledge or experience with Hackintoshes. 
@@ -111,7 +111,7 @@ If you want a smooth experience using wireless functionalities such as AirDrop /
 
 ## BIOS Settings
 
-Based on F9k beta version.
+Based on F9l version.
 
 #### First setup,
 
@@ -153,7 +153,7 @@ Based on F9k beta version.
 		- Aperture Size → **256M**
 		- Audio Controller → **Enabled**
     	- Above 4G Decoding → **Enabled**
-    	- Super IO Configuration (based on F9k beta)
+    	- Super IO Configuration (based on F9l)
     		- Serial Port → **Disabled**
     	- USB Configuration
     		- XHCI Hand-off → **Enabled**
@@ -168,7 +168,7 @@ Based on F9k beta version.
 * System Info.
 	- System Language → **English**
 * Boot
-	- CFG Lock → **Disabled** (based on F9k beta)
+	- CFG Lock → **Disabled** (based on F9l)
 	- Full Screen LOGO Show → **Disabled**
 	- Fast Boot → **Enabled**
 		- PS2 Devices Support → **Disabled**
