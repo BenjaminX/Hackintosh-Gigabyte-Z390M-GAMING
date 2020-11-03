@@ -8,7 +8,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Power Management</string>
+				<string>CPU power management</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -16,19 +16,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>NVRAM(PMC)</string>
+				<string>Enable native NVRAM</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-PMC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>[Start up automatically after a power failure] iMac/Mac mini</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PM.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -37,6 +29,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-EC-USBX-DESKTOP.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Fixing System Clocks</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-AWAC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -53,6 +53,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-TBOLT3-RP05-PORT7-GC-TITAN-RIDGE.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>[Start up automatically after a power failure] iMac/Mac mini</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PM.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -523,13 +531,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBPower.kext</string>
+				<string>USBInjectAll.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
-				<string></string>
+				<string>Contents/MacOS/USBInjectAll</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -894,9 +902,9 @@
 			<key>PasswordSalt</key>
 			<data></data>
 			<key>SecureBootModel</key>
-			<string>Disabled</string>
+			<string>Default</string>
 			<key>ScanPolicy</key>
-			<integer>0</integer>
+			<integer>3870467</integer>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>

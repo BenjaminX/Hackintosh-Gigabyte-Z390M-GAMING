@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 10.15.7 (19H2) Catalina and OpenCore 0.6.2. Waiting for Big Sur released will upgrade.
+Verified working with macOS version 10.15.7 (19H2) Catalina and OpenCore 0.6.3. Waiting for Big Sur released will upgrade.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -13,6 +13,9 @@ Verified working with macOS version 10.15.7 (19H2) Catalina and OpenCore 0.6.2. 
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
+2020-11-03 / Version 1.6.7
+Upgrade to OpenCore 0.6.3 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
+
 2020-10-16 / Version 1.6.6
 Completely solve the problem of coordinating work between the built-in graphics card and the discrete graphics card.
 
@@ -71,11 +74,11 @@ First inital commits.
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9l |
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.2 |
-[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.8 | 
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.3 |
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.7 |
-[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.3 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.3 |
+[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.9 | 
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.4 |
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.8 |
+[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.4 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.4 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.4 |
 
@@ -191,7 +194,6 @@ Based on F9l version.
 
 
 ## Tips
-* How to modify MLB/ROM/SN/UUID? (TBD)
 * How to hard-flash GC-TITAN RIDGE BIOS with SSDT patched? Ref here [Post 1](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1640#post-2087524) [Post 2](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1624#post-2086862) [Post 3](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge.md) [Post 4](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge-CustomFirmware.md)
 
 
