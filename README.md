@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 10.15.7 (19H2) Catalina and OpenCore 0.6.3. Waiting for Big Sur released will upgrade.
+Verified working with macOS version 10.15.7 (19H15) Catalina and OpenCore 0.6.3. Waiting for Big Sur released will upgrade.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
