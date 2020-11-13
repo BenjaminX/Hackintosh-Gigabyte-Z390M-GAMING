@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 10.15.7 (19H15) Catalina and OpenCore 0.6.3. Waiting for Big Sur released will upgrade.
+Verified working with macOS version 11.0.1 (20B29) Big Sur and OpenCore 0.6.3.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -13,6 +13,9 @@ Verified working with macOS version 10.15.7 (19H15) Catalina and OpenCore 0.6.3.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
+2020-11-13 / Version 1.6.8
+Big Sur 11.0.1 (20B29) Verified. Fixed booter issue 'Start Image Failed'.
+
 2020-11-03 / Version 1.6.7
 Upgrade to OpenCore 0.6.3 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
 
@@ -106,7 +109,7 @@ SSD Cooler | CRYORIG Frostbit (M.2) |
 Cooling Fan | Noctua NF-F12 PWM | 12cm
 Monitors | LED Cinema Display 24 & AOC U2790PQU IPS 4K & EIZO CX270 2K | ACD 24 including Camera / Mic / Speaker / USB hub
 Keyboard & Mouse | Magic Keyboard & Magic Mouse 2 & Magic Trackpad 2 | Prefer to wireless devices
-Hard Disk | Seagate BarraCuda 2TB SATA | For backup / Time Machine
+Hard Disk | WD20SPZX 2TB SATA | For backup / Time Machine
 
 **IMPORTANT: Core components (Motherboard / Graphics Card / WiFi Adapter) are CRUCIAL and you HAVE TO follow the instructions above.**
 
