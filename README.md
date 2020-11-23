@@ -9,6 +9,8 @@ Verified working with macOS version 11.0.1 (20B29) Big Sur and OpenCore 0.6.3.
 
 ## Important! Important! Important!
 
+**F9l BIOS from GIGABYTE resolves the Apple Watch unlock(SERIAL PORT disabled) issue and provides the CFG Unlock in the BIOS. CFG Unlock is required for this EFI to work properly. Be sure to upgrade F9l.**
+
 **YOU MUST modify SN/UUID/MLB/ROM values in config.plist file. ROM value is the MAC address of your motherboard built-in network card, check it on BIOS settings.**
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
@@ -159,7 +161,7 @@ Based on F9l version.
 		- Aperture Size → **256M**
 		- Audio Controller → **Enabled**
     	- Above 4G Decoding → **Enabled**
-    	- Super IO Configuration (based on F9l)
+    	- Super IO Configuration (F9l BIOS only)
     		- Serial Port → **Disabled**
     	- USB Configuration
     		- XHCI Hand-off → **Enabled**
@@ -174,7 +176,7 @@ Based on F9l version.
 * System Info.
 	- System Language → **English**
 * Boot
-	- CFG Lock → **Disabled** (based on F9l)
+	- CFG Lock → **Disabled** (F9l BIOS only)
 	- Full Screen LOGO Show → **Disabled**
 	- Fast Boot → **Enabled**
 		- PS2 Devices Support → **Disabled**
@@ -198,11 +200,16 @@ Based on F9l version.
 
 ## Tips
 * How to hard-flash GC-TITAN RIDGE BIOS with SSDT patched? Ref here [Post 1](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1640#post-2087524) [Post 2](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1624#post-2086862) [Post 3](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge.md) [Post 4](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge-CustomFirmware.md)
+* How to force RGB mode for displays? Ref [here](https://forums.macrumors.com/threads/big-sur-force-rgb-mode-for-displays.2268099/)
 
 
 ## Not Working / Issues
 Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/issues)
 
+## Known Issues
+Big Sur seems to break the support for Apple TV+ DRM. [Ref](https://github.com/acidanthera/bugtracker/issues/1034)
+
+Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
 
 ## Kexts & Tools
 * [Lilu](https://github.com/acidanthera/Lilu)
