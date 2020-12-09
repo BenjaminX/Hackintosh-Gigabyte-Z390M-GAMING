@@ -15,6 +15,9 @@ Verified working with macOS version 11.0.1 (20B29) Big Sur and OpenCore 0.6.3.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
+2020-12-08 / Version 1.6.9
+Upgrade to OpenCore 0.6.4 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
+
 2020-11-13 / Version 1.6.8
 Big Sur 11.0.1 (20B29) Verified. Fixed booter issue 'Start Image Failed'.
 
@@ -79,11 +82,11 @@ First inital commits.
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9l |
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.3 |
-[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.4.9 | 
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.4 |
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.8 |
-[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.4 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.4 |
+[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.0 | 
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.5 |
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.9 |
+[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.5 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.4 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.4 |
 
