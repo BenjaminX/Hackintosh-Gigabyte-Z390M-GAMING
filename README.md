@@ -112,9 +112,9 @@ PC Case | Jonsbo RM2 ATX | Silver
 CPU Cooler | Jonsbo TW2-240 | Version 601
 SSD Cooler | CRYORIG Frostbit (M.2) | 
 Cooling Fan | Noctua NF-F12 PWM | 12cm
-Monitors | LED Cinema Display 24 & AOC U2790PQU IPS 4K & EIZO CX270 2K | ACD 24 including Camera / Mic / Speaker / USB hub
+Monitors | LED Cinema Display 24 & AOC U2790PQU IPS 4K | ACD 24 including Camera / Mic / Speaker / USB hub
 Keyboard & Mouse | Magic Keyboard & Magic Mouse 2 & Magic Trackpad 2 | Prefer to wireless devices
-Hard Disk | WD20SPZX 2TB SATA | For backup / Time Machine
+Hard Disk | WD20SPZX 2TB SATA | Backup / Time Machine
 
 **IMPORTANT: Core components (Motherboard / Graphics Card / WiFi Adapter) are CRUCIAL and you HAVE TO follow the instructions above.**
 
@@ -210,9 +210,8 @@ Based on F9l version.
 Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/issues)
 
 ## Known Issues
-Big Sur seems to break the support for Apple TV+ DRM. [Ref](https://github.com/acidanthera/bugtracker/issues/1034)
-
-Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
+* Big Sur seems to break the support for Apple TV+ DRM. [Ref](https://github.com/acidanthera/bugtracker/issues/1034)
+* Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
 
 ## Kexts & Tools
 * [Lilu](https://github.com/acidanthera/Lilu)
