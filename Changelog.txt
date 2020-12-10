@@ -1,0 +1,53 @@
+2020-10-16 / Version 1.6.6
+Completely solve the problem of coordinating work between the built-in graphics card and the discrete graphics card.
+
+2020-10-12 / Version 1.6.5
+BIOS F9k beta version, CFG unlock/SERIAL PORT disabled options in BIOS settings and BIOS file was signed. Fixed TB3 ACPI bugs.
+
+2020-10-06 / Version 1.6.4
+Upgrade to OpenCore 0.6.2 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
+
+2020-09-09 / Version 1.6.3
+Upgrade to OpenCore 0.6.1 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
+
+2020-08-18 / Version 1.6.2
+Fixed GFX frequency to 1.2Ghz 
+
+2020-08-14 / Version 1.6.1
+Verified working with 10.15.6 (19G2021)
+
+2020-08-04 / Version 1.6.0
+Upgrade to OpenCore 0.6.0 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
+
+2020-07-05 / Version 1.5.0
+Upgrade to 10.15.6 (19G73) and verified, but OpenCore 0.6.0 not release, waiting for 1.6.0.
+
+2020-07-05 / Version 1.4.0
+Waiting for OC 0.6.0 release, Optimized some kexts and ACPI aml files.
+
+2020-06-30 / Version 1.3.0
+10.15.5 (19F2200) Verified, updates ACPI aml files. Finally, fixed sleep issues, update BIOS file, then flash new BIOS.
+
+2020-06-10 / Version 1.2.0
+Gigabyte GC-TITAN RIDGE supported, pls ref how to hard-flash BIOS.
+
+2020-06-03 / Version 1.1.0
+Fixed wakeup issues some applications was freeze.
+
+2020-06-03 / Version 1.0.1
+Fixed H.264/H.265 supported.
+
+2020-06-02 / Version 1.0.0
+Final Release 1.0.0, 10.15.5 (19F101) well done, OC 0.5.9 and Kexts updates.
+
+2020-05-26 / Version 0.0.9
+Prepare to release 1.0.0, waiting 10.15.5 version to publish to App Store.
+
+2020-05-24 / Version 0.0.3
+Upload some kexts files.
+
+2020-05-14 / Version 0.0.2
+Upload mod BIOS based on 'F9g'.
+
+2020-05-11 / Version 0.0.1
+First inital commits.

@@ -24,64 +24,13 @@ Big Sur 11.0.1 (20B29) Verified. Fixed booter issue 'Start Image Failed'.
 2020-11-03 / Version 1.6.7
 Upgrade to OpenCore 0.6.3 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
 
-2020-10-16 / Version 1.6.6
-Completely solve the problem of coordinating work between the built-in graphics card and the discrete graphics card.
+[Changelog History]()
 
-2020-10-12 / Version 1.6.5
-BIOS F9k beta version, CFG unlock/SERIAL PORT disabled options in BIOS settings and BIOS file was signed. Fixed TB3 ACPI bugs.
-
-2020-10-06 / Version 1.6.4
-Upgrade to OpenCore 0.6.2 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
-
-2020-09-09 / Version 1.6.3
-Upgrade to OpenCore 0.6.1 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
-
-2020-08-18 / Version 1.6.2
-Fixed GFX frequency to 1.2Ghz 
-
-2020-08-14 / Version 1.6.1
-Verified working with 10.15.6 (19G2021)
-
-2020-08-04 / Version 1.6.0
-Upgrade to OpenCore 0.6.0 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
-
-2020-07-05 / Version 1.5.0
-Upgrade to 10.15.6 (19G73) and verified, but OpenCore 0.6.0 not release, waiting for 1.6.0.
-
-2020-07-05 / Version 1.4.0
-Waiting for OC 0.6.0 release, Optimized some kexts and ACPI aml files.
-
-2020-06-30 / Version 1.3.0
-10.15.5 (19F2200) Verified, updates ACPI aml files. Finally, fixed sleep issues, update BIOS file, then flash new BIOS.
-
-2020-06-10 / Version 1.2.0
-Gigabyte GC-TITAN RIDGE supported, pls ref how to hard-flash BIOS.
-
-2020-06-03 / Version 1.1.0
-Fixed wakeup issues some applications was freeze.
-
-2020-06-03 / Version 1.0.1
-Fixed H.264/H.265 supported.
-
-2020-06-02 / Version 1.0.0
-Final Release 1.0.0, 10.15.5 (19F101) well done, OC 0.5.9 and Kexts updates.
-
-2020-05-26 / Version 0.0.9
-Prepare to release 1.0.0, waiting 10.15.5 version to publish to App Store.
-
-2020-05-24 / Version 0.0.3
-Upload some kexts files.
-
-2020-05-14 / Version 0.0.2
-Upload mod BIOS based on 'F9g'.
-
-2020-05-11 / Version 0.0.1
-First inital commits.
-
+Included items table
 
 Items | Last Version | Comments
 ------------ | ------------- | -------------
-[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9l |
+[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9l | Be sure to upgrade F9l
 [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.4 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.0 | 
 [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.5 |
@@ -103,7 +52,7 @@ Components | Recommended SKU | Comments
 **CPU** | Intel i7-9700K | 8th/9th-gen both fine (9900K/9700/8700/etc)
 **Motherboard** | Gigabyte Z390M Gaming mATX | Not interchangeable with other SKUs
 **WiFi Adapter** | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including NGFF to M.2 Adapter)
-**Graphics Card** | Dataland RX 580 8G X-Serial God of War **2304SP** | **DO NOT USE 2048SP VERSION**
+**Graphics Card** | Dataland RX 580 8G X-Serial God of War **2304SP** | **DO NOT USE 2048SP VERSION** and **Flash VBIOS ASRock.RX580.8192.180329.rom**
 Thunderbolt Card | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified (Need hard-flash)
 SSD | WD Black SN750 NVMe SSD 1TB | Recommend upgrade to Samsung 970 Pro 1TB
 RAM | Corsair Vengeance LPX 128GB (4x32GB) DDR4 X.M.P | Recommend 3200MHz / Better 3600MHz
