@@ -32,6 +32,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>[Start up automatically after a power failure] iMac/Mac mini</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PM.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Thunderbolt 3</string>
 				<key>Enabled</key>
 				<true/>
@@ -45,14 +53,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-TBOLT3-RP05-PORT7-GC-TITAN-RIDGE.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>[Start up automatically after a power failure] iMac/Mac mini</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PM.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -79,6 +79,8 @@
 		<array/>
 		<key>Quirks</key>
 		<dict>
+			<key>AllowRelocationBlock</key>
+			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
@@ -372,7 +374,7 @@
 				<key>BundlePath</key>
 				<string>RadeonBoost.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>AMD Boost</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -585,6 +587,8 @@
 		</array>
 		<key>Security</key>
 		<dict>
+			<key>BlacklistAppleUpdate</key>
+			<false/>
 			<key>AllowNvramReset</key>
 			<true/>
 			<key>AllowSetDefault</key>
@@ -819,7 +823,7 @@
 			<key>MinimumVolume</key>
 			<integer>60</integer>
 			<key>PlayChime</key>
-			<true/>
+			<string>Auto</string>
 			<key>VolumeAmplifier</key>
 			<integer>143</integer>
 		</dict>
