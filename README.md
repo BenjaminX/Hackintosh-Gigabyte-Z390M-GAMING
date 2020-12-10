@@ -24,7 +24,7 @@ Big Sur 11.0.1 (20B29) Verified. Fixed booter issue 'Start Image Failed'.
 2020-11-03 / Version 1.6.7
 Upgrade to OpenCore 0.6.3 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
 
-[Changelog History]()
+[Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
 Included items table
 
