@@ -77,8 +77,6 @@
 	<dict>
 		<key>MmioWhitelist</key>
 		<array/>
-		<key>Patch</key>
-		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AllowRelocationBlock</key>

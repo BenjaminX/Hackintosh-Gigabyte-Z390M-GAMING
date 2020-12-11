@@ -171,6 +171,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [NVMeFix](https://github.com/acidanthera/NVMeFix)
 * [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all)
 * [OpenCore Configurator](https://mackie100projects.altervista.org/category/opencore-configurator-changelog/)
+* [QtOpenCoreConfig](https://github.com/ic005k/QtOpenCoreConfig)
 * [OcBinaryData](https://github.com/acidanthera/OcBinaryData)
 * [Hackintool](https://github.com/headkaze/Hackintool)
 * [PLIST Editor](https://apps.apple.com/us/app/plist-editor/id1157491961?mt=12)
