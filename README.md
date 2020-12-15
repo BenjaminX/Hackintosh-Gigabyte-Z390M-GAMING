@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 11.0.1 (20B29) Big Sur and OpenCore 0.6.4.
+Verified working with macOS version 11.1 (20C69) Big Sur and OpenCore 0.6.4.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -15,14 +15,15 @@ Verified working with macOS version 11.0.1 (20B29) Big Sur and OpenCore 0.6.4.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
+2020-12-08 / Version 1.7.0
+Big Sur 11.1 (20C69) Verified. Fixed WiFi/LAN issue BSD name on 'en0'.
+
 2020-12-08 / Version 1.6.9
 Upgrade to OpenCore 0.6.4 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
 
 2020-11-13 / Version 1.6.8
 Big Sur 11.0.1 (20B29) Verified. Fixed booter issue 'Start Image Failed'.
 
-2020-11-03 / Version 1.6.7
-Upgrade to OpenCore 0.6.3 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
 
 [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
