@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 11.1 (20C69) Big Sur and OpenCore 0.6.4.
+Verified working with macOS version 11.1 (20C69) Big Sur and OpenCore 0.6.5.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -15,15 +15,14 @@ Verified working with macOS version 11.1 (20C69) Big Sur and OpenCore 0.6.4.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
+2021-01-06 / Version 1.7.1
+Upgrade to OpenCore 0.6.5 and others Kexts.(AppleALC/WhateverGreen/etc)
+
 2020-12-08 / Version 1.7.0
 Big Sur 11.1 (20C69) Verified. Fixed WiFi/LAN issue BSD name on 'en0'.
 
 2020-12-08 / Version 1.6.9
 Upgrade to OpenCore 0.6.4 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
-
-2020-11-13 / Version 1.6.8
-Big Sur 11.0.1 (20B29) Verified. Fixed booter issue 'Start Image Failed'.
-
 
 [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -32,13 +31,13 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9l | Be sure to upgrade F9l
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.4 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.5 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.0 | 
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.5 |
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.6 |
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.9 |
-[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.5 |
-[NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.4 |
-[IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.4 |
+[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.6 |
+[NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.5 |
+[IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.5 |
 
 **Important! Important! Important**
 **Highly recommended to try the lastest BIOS 'F9l' version. Download [BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS/mb_bios_z390-m-gaming_f9l.zip) and flash it for CFG unlocked, SERIAL PORT disabled from BIOS settings.**
@@ -177,7 +176,6 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [Hackintool](https://github.com/headkaze/Hackintool)
 * [PLIST Editor](https://apps.apple.com/us/app/plist-editor/id1157491961?mt=12)
 * [Sanity Checker for config.plist](https://opencore.slowgeek.com)
-* [FreeDOS](http://www.freedos.org/download/)
 
 
 ## References
