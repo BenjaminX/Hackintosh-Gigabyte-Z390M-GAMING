@@ -15,7 +15,7 @@ Verified working with macOS version 11.1 (20C69) Big Sur and OpenCore 0.6.5.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
-2021-01-06 / Version 1.7.2
+2021-01-25 / Version 1.7.2
 Upgrade to BIOS F9m and verified. 
 
 2021-01-06 / Version 1.7.1
