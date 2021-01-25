@@ -9,12 +9,15 @@ Verified working with macOS version 11.1 (20C69) Big Sur and OpenCore 0.6.5.
 
 ## Important! Important! Important!
 
-**F9l BIOS from GIGABYTE resolves the Apple Watch unlock(SERIAL PORT disabled) issue and provides the CFG Unlock in the BIOS. CFG Unlock is required for this EFI to work properly. Be sure to upgrade F9l.**
+**F9m BIOS from GIGABYTE resolves the Apple Watch unlock(SERIAL PORT disabled) issue and provides the CFG Unlock in the BIOS. CFG Unlock is required for this EFI to work properly. Be sure to upgrade F9m.**
 
 **YOU MUST modify SN/UUID/MLB/ROM values in config.plist file. ROM value is the MAC address of your motherboard built-in network card, check it on BIOS settings.**
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
+2021-01-06 / Version 1.7.2
+Upgrade to BIOS F9m and verified. 
+
 2021-01-06 / Version 1.7.1
 Upgrade to OpenCore 0.6.5 and others Kexts.(AppleALC/WhateverGreen/etc)
 
@@ -30,7 +33,7 @@ Included items table
 
 Items | Last Version | Comments
 ------------ | ------------- | -------------
-[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9l | Be sure to upgrade F9l
+[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9m | Be sure to upgrade F9m
 [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.5 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.0 | 
 [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.6 |
@@ -40,7 +43,7 @@ Items | Last Version | Comments
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.5 |
 
 **Important! Important! Important**
-**Highly recommended to try the lastest BIOS 'F9l' version. Download [BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS/mb_bios_z390-m-gaming_f9l.zip) and flash it for CFG unlocked, SERIAL PORT disabled from BIOS settings.**
+**Highly recommended to try the lastest BIOS 'F9m' version. Download [BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS/mb_bios_z390-m-gaming_f9m.zip) and flash it for CFG unlocked, SERIAL PORT disabled from BIOS settings.**
 
 ## Overview
 Installation procedure is quite straightforward, but requires prior knowledge or experience with Hackintoshes. 
@@ -71,7 +74,7 @@ If you want a smooth experience using wireless functionalities such as AirDrop /
 
 ## BIOS Settings
 
-Based on F9l version.
+Based on F9m version.
 
 #### First setup,
 
@@ -113,7 +116,7 @@ Based on F9l version.
 		- Aperture Size → **256M**
 		- Audio Controller → **Enabled**
     	- Above 4G Decoding → **Enabled**
-    	- Super IO Configuration (F9l BIOS only)
+    	- Super IO Configuration (F9m BIOS only)
     		- Serial Port → **Disabled**
     	- USB Configuration
     		- XHCI Hand-off → **Enabled**
@@ -128,7 +131,7 @@ Based on F9l version.
 * System Info.
 	- System Language → **English**
 * Boot
-	- CFG Lock → **Disabled** (F9l BIOS only)
+	- CFG Lock → **Disabled** (F9m BIOS only)
 	- Full Screen LOGO Show → **Disabled**
 	- Fast Boot → **Enabled**
 		- PS2 Devices Support → **Disabled**
