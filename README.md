@@ -86,6 +86,10 @@ Based on F9m version.
 * Tweaker
 	- Advanced CPU Settings
 		- VT-d → **Disabled**
+		- No. of CPU Cores Enabled → 8
+		- CPU EIST Functions → **Enabled**
+		- Race To Halt (RTH) → **Enabled**
+		- Voltage Optimization → **Enabled**
 		- Intel(R) Speed Shift Technology → **Enabled**
 		- Energy Efficient Turbo  → **Enabled**
 		- Intel(R) Turbo Boost Technology → **Enabled**
