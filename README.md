@@ -15,6 +15,9 @@ Verified working with macOS version 11.1 (20C69) Big Sur and OpenCore 0.6.5.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
+2021-01-26 / Version 1.7.3
+Fixed DRM issues for TV+/Netflix/etc.
+
 2021-01-25 / Version 1.7.2
 Upgrade to BIOS F9m and verified. 
 
@@ -23,9 +26,6 @@ Upgrade to OpenCore 0.6.5 and others Kexts.(AppleALC/WhateverGreen/etc)
 
 2020-12-08 / Version 1.7.0
 Big Sur 11.1 (20C69) Verified. Fixed WiFi/LAN issue BSD name on 'en0'.
-
-2020-12-08 / Version 1.6.9
-Upgrade to OpenCore 0.6.4 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
 
 [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -42,21 +42,23 @@ Items | Last Version | Comments
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.5 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.5 |
 
-**Important! Important! Important**
-**Highly recommended to try the lastest BIOS 'F9m' version. Download [BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS/mb_bios_z390-m-gaming_f9m.zip) and flash it for CFG unlocked, SERIAL PORT disabled from BIOS settings.**
+
+**Important! Important! Important!**
+
+**Highly recommended to make sure to use the latest BIOS 'F9m' version. Download [BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS/mb_bios_z390-m-gaming_f9m.zip) and flash it for CFG unlocked, SERIAL PORT disabled from BIOS settings.**
 
 ## Overview
 Installation procedure is quite straightforward, but requires prior knowledge or experience with Hackintoshes. 
 It can be simple and complicated at the same time, refer directly to this manual for a better experience.
 
 ## Hardware
-Components | Recommended SKU | Comments
+Components | SKU | Comments
 ------------ | ------------- | -------------
 **CPU** | Intel i7-9700K | 8th/9th-gen both fine (9900K/9700/8700/etc)
 **Motherboard** | Gigabyte Z390M Gaming mATX | Not interchangeable with other SKUs
 **WiFi Adapter** | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including NGFF to M.2 Adapter)
 **Graphics Card** | Dataland RX 580 8G X-Serial God of War **2304SP** | **DO NOT USE 2048SP VERSION** and **Flash VBIOS ASRock.RX580.8192.180329.rom**
-Thunderbolt Card | Gigabyte GC-TITAN RIDGE | Thunderbolt 3 Certified (Need hard-flash)
+Thunderbolt Card | Gigabyte GC-TITAN RIDGE V1 | Thunderbolt 3 Certified (Need hard-flash, See below for details)
 SSD | WD Black SN750 NVMe SSD 1TB | Recommend upgrade to Samsung 970 Pro 1TB
 RAM | Corsair Vengeance LPX 128GB (4x32GB) DDR4 X.M.P | Recommend 3200MHz / Better 3600MHz
 PSU | Seasonic Focus Plus 650FX | Recommend upgrade to GX850 / GX1000
@@ -68,9 +70,9 @@ Monitors | LED Cinema Display 24 & AOC U2790PQU IPS 4K | ACD 24 including Camera
 Keyboard & Mouse | Magic Keyboard & Magic Mouse 2 & Magic Trackpad 2 | Prefer to wireless devices
 Hard Disk | WD20SPZX 2TB SATA | Backup / Time Machine
 
-**IMPORTANT: Core components (Motherboard / Graphics Card / WiFi Adapter) are CRUCIAL and you HAVE TO follow the instructions above.**
+**KEY TIPS: Core components (Motherboard / Graphics Card / WiFi Adapter) are CRUCIAL and you HAVE TO follow the instructions above.**
 
-If you want a smooth experience using wireless functionalities such as AirDrop / AirPlay / Sidecar / Handoff / iMessage / Facetime / Contiuenity / etc, only a specific range of wifi adapters are recommended: **BCM94360CD/BCM943602CDP/BCM943602CS**
+If you want a smooth experience using wireless functionalities such as AirDrop / AirPlay / Sidecar / Handoff / iMessage / Facetime / Contiuenity / etc, only a specific range of wifi card are recommended: **BCM94360CD/BCM943602CDP/BCM943602CS**
 
 ## BIOS Settings
 
@@ -120,7 +122,8 @@ Based on F9m version.
 		- Aperture Size → **256M**
 		- Audio Controller → **Enabled**
     	- Above 4G Decoding → **Enabled**
-    	- Super IO Configuration (F9m BIOS only)
+    	- Resize BAR Support → **Disabled**
+    	- Super IO Configuration
     		- Serial Port → **Disabled**
     	- USB Configuration
     		- XHCI Hand-off → **Enabled**
@@ -132,14 +135,11 @@ Based on F9m version.
 	- Miscellaneous
 		- Intel Platform Trust Technology(PTT) → **Disabled**
 		- Software Guard Extensions(SGX) → **Disabled**
-* System Info.
-	- System Language → **English**
 * Boot
-	- CFG Lock → **Disabled** (F9m BIOS only)
+	- CFG Lock → **Disabled**
 	- Full Screen LOGO Show → **Disabled**
 	- Fast Boot → **Enabled**
 		- PS2 Devices Support → **Disabled**
-		- Next Boot After AC Power Loss → **Fast Boot**
 	- Windows 8/10 Features → **Other OS**
 	- CSM Support → **Disable**
 	- Secure Boot → **Disable** (Secure Boot will be disabled by default, but good to check)
@@ -166,7 +166,7 @@ Based on F9m version.
 Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/issues)
 
 ## Known Issues
-* Big Sur seems to break the support for Apple TV+ DRM. [Ref](https://github.com/acidanthera/bugtracker/issues/1034)
+* Big Sur seems to break the support for Apple TV+ DRM. [Ref](https://github.com/acidanthera/bugtracker/issues/1034) [WEG](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Chart.md) [WEG Ref](https://github.com/acidanthera/WhateverGreen/commit/5f6c19243f343719fdbc3e94ec22a9e2b1d16ce9)
 * Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
 
 ## Kexts & Tools
