@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 11.1 (20C69) Big Sur and OpenCore 0.6.5.
+Verified working with macOS version 11.2 (20D64) Big Sur and OpenCore 0.6.6.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -15,6 +15,9 @@ Verified working with macOS version 11.1 (20C69) Big Sur and OpenCore 0.6.5.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
+2021-02-03 / Version 1.7.4
+Upgrade to OpenCore 0.6.6 and others Kexts. Verified working with 11.2 (20D64). Replaced HfsPlus.efi driver with OpenHfsPlus.efi, removed HdaCodecDump.efi.
+
 2021-01-26 / Version 1.7.3
 Fixed DRM issues for TV+/Netflix/etc.
 
@@ -24,9 +27,6 @@ Upgrade to BIOS F9m and verified.
 2021-01-06 / Version 1.7.1
 Upgrade to OpenCore 0.6.5 and others Kexts.(AppleALC/WhateverGreen/etc)
 
-2020-12-08 / Version 1.7.0
-Big Sur 11.1 (20C69) Verified. Fixed WiFi/LAN issue BSD name on 'en0'.
-
 [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
 Included items table
@@ -34,11 +34,11 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9m | Be sure to upgrade F9m
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.5 |
-[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.0 | 
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.6 |
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.1.9 |
-[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.6 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.6 |
+[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.1 | 
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.7 |
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.0 |
+[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.7 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.5 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.5 |
 

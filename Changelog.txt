@@ -1,3 +1,6 @@
+2020-12-08 / Version 1.7.0
+Big Sur 11.1 (20C69) Verified. Fixed WiFi/LAN issue BSD name on 'en0'.
+
 2020-12-08 / Version 1.6.9
 Upgrade to OpenCore 0.6.4 and others Kexts.(Lilu/AppleALC/WhateverGreen/etc)
 
