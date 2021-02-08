@@ -383,13 +383,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>RadeonBoost.kext</string>
+				<string>NVMeFix.kext</string>
 				<key>Comment</key>
-				<string>AMD Boost</string>
+				<string>NVMe SSD Power Managements</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/PropertyInjector</string>
+				<string>Contents/MacOS/NVMeFix</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -401,13 +401,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>NVMeFix.kext</string>
+				<string>RadeonBoost.kext</string>
 				<key>Comment</key>
-				<string>NVMe SSD Power Managements</string>
+				<string>AMD Boost</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/NVMeFix</string>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>

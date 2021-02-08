@@ -15,6 +15,9 @@ Verified working with macOS version 11.2 (20D64) Big Sur and OpenCore 0.6.6.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
+2021-02-04 / Version 1.7.5
+Upgrade to RadeonBoost.kext V1.6.
+
 2021-02-03 / Version 1.7.4
 Upgrade to OpenCore 0.6.6 and others Kexts. Verified working with 11.2 (20D64). Replaced HfsPlus.efi driver with OpenHfsPlus.efi, removed HdaCodecDump.efi.
 
@@ -23,9 +26,6 @@ Fixed DRM issues for TV+/Netflix/etc.
 
 2021-01-25 / Version 1.7.2
 Upgrade to BIOS F9m and verified. 
-
-2021-01-06 / Version 1.7.1
-Upgrade to OpenCore 0.6.5 and others Kexts.(AppleALC/WhateverGreen/etc)
 
 [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
