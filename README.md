@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 11.2 (20D64) Big Sur and OpenCore 0.6.6.
+Verified working with macOS version 11.2.1 (20D74) Big Sur and OpenCore 0.6.6.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -15,7 +15,10 @@ Verified working with macOS version 11.2 (20D64) Big Sur and OpenCore 0.6.6.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
-2021-02-04 / Version 1.7.5
+2021-02-10 / Version 1.7.6
+Verified working with 11.2.1 (20D74), roll back HfsPlus.efi. AGPMInjector.kext for testing.
+
+2021-02-08 / Version 1.7.5
 Upgrade to RadeonBoost.kext V1.6.
 
 2021-02-03 / Version 1.7.4
