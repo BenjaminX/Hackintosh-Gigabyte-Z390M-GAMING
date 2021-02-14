@@ -24,12 +24,6 @@ Upgrade to RadeonBoost.kext V1.6.
 2021-02-03 / Version 1.7.4
 Upgrade to OpenCore 0.6.6 and others Kexts. Verified working with 11.2 (20D64). Replaced HfsPlus.efi driver with OpenHfsPlus.efi, removed HdaCodecDump.efi.
 
-2021-01-26 / Version 1.7.3
-Fixed DRM issues for TV+/Netflix/etc.
-
-2021-01-25 / Version 1.7.2
-Upgrade to BIOS F9m and verified. 
-
 [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
 Included items table
@@ -186,6 +180,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [Hackintool](https://github.com/headkaze/Hackintool)
 * [PLIST Editor](https://apps.apple.com/us/app/plist-editor/id1157491961?mt=12)
 * [Sanity Checker for config.plist](https://opencore.slowgeek.com)
+* [HackinDROM](https://hackindrom.zapto.org)
 
 
 ## References
