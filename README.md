@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 11.2.1 (20D74) Big Sur and OpenCore 0.6.6.
+Verified working with macOS version 11.2.2 (20D80) Big Sur and OpenCore 0.6.7.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -15,14 +15,17 @@ Verified working with macOS version 11.2.1 (20D74) Big Sur and OpenCore 0.6.6.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
+2021-03-02 / Version 1.7.8
+Verified working with 11.2.2 (20D80) and Upgrade to OpenCore 0.6.7 / AppleALC 1.5.8 / VirtualSMC 1.2.1 / WhateverGreen 1.4.8.
+
+2021-02-14 / Version 1.7.7
+Verified working with 11.2.2 (20D80).
+
 2021-02-10 / Version 1.7.6
 Verified working with 11.2.1 (20D74), roll back HfsPlus.efi. AGPMInjector.kext for testing.
 
 2021-02-08 / Version 1.7.5
 Upgrade to RadeonBoost.kext V1.6.
-
-2021-02-03 / Version 1.7.4
-Upgrade to OpenCore 0.6.6 and others Kexts. Verified working with 11.2 (20D64). Replaced HfsPlus.efi driver with OpenHfsPlus.efi, removed HdaCodecDump.efi.
 
 [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -31,11 +34,11 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9m | Be sure to upgrade F9m
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.6 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.7 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.1 | 
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.7 |
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.0 |
-[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.7 |
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.8 |
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.1 |
+[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.8 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.5 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.5 |
 
@@ -167,12 +170,6 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
 
 ## Kexts & Tools
-* [Lilu](https://github.com/acidanthera/Lilu)
-* [AppleALC](https://github.com/acidanthera/AppleALC)
-* [VirtualSMC](https://github.com/acidanthera/VirtualSMC)
-* [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
-* [IntelMausi](https://github.com/acidanthera/IntelMausi)
-* [NVMeFix](https://github.com/acidanthera/NVMeFix)
 * [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all)
 * [OpenCore Configurator](https://mackie100projects.altervista.org/category/opencore-configurator-changelog/)
 * [QtOpenCoreConfig](https://github.com/ic005k/QtOpenCoreConfig)

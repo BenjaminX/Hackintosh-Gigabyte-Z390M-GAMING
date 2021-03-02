@@ -150,6 +150,30 @@
 				<key>model</key>
 				<string>AMD Radeon Pro 580X</string>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Built In</string>
+				<key>device_type</key>
+				<string>Ethernet controller</string>
+				<key>model</key>
+				<string>Ethernet Connection (7) I219-V</string>
+				<key>name</key>
+				<string>Intel Ethernet Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Built In</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-2</string>
+				<key>layout-id</key>
+				<data>AQAAAA==</data>
+				<key>model</key>
+				<string>Cannon Lake PCH cAVS</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -220,30 +244,6 @@
 				<string>onboard-2</string>
 				<key>model</key>
 				<string>Intel UHD Graphics 630</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Built In</string>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-2</string>
-				<key>layout-id</key>
-				<data>AQAAAA==</data>
-				<key>model</key>
-				<string>Cannon Lake PCH cAVS</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x6)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Built In</string>
-				<key>device_type</key>
-				<string>Ethernet controller</string>
-				<key>model</key>
-				<string>Ethernet Connection (7) I219-V</string>
-				<key>name</key>
-				<string>Intel Ethernet Controller</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -486,7 +486,7 @@
 			<key>DisableIoMapper</key>
 			<true/>
 			<key>DisableLinkeditJettison</key>
-			<false/>
+			<true/>
 			<key>DisableRtcChecksum</key>
 			<false/>
 			<key>ExtendBTFeatureFlags</key>
@@ -789,10 +789,10 @@
 		<dict>
 			<key>AdviseWindows</key>
 			<false/>
-			<key>MaxBIOSVersion</key>
-			<false/>
 			<key>MLB</key>
 			<string>ChangeMe</string>
+			<key>MaxBIOSVersion</key>
+			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -850,6 +850,8 @@
 			<integer>30</integer>
 			<key>PlayChime</key>
 			<string>Auto</string>
+			<key>ResetTrafficClass</key>
+			<false/>
 			<key>SetupDelay</key>
 			<integer>0</integer>
 			<key>VolumeAmplifier</key>
@@ -862,7 +864,7 @@
 			<string>OpenRuntime.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>AudioDxe.efi</string>
-			<string>HfsPlus.efi</string>
+			<string>OpenHfsPlus.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -870,8 +872,6 @@
 			<false/>
 			<key>KeyForgetThreshold</key>
 			<integer>5</integer>
-			<key>KeyMergeThreshold</key>
-			<integer>2</integer>
 			<key>KeySupport</key>
 			<true/>
 			<key>KeySupportMode</key>
@@ -895,14 +895,16 @@
 			<false/>
 			<key>ForceResolution</key>
 			<false/>
+			<key>GopPassThrough</key>
+			<false/>
 			<key>IgnoreTextInGraphics</key>
-			<true/>
+			<false/>
 			<key>ProvideConsoleGop</key>
 			<true/>
 			<key>ReconnectOnResChange</key>
 			<false/>
 			<key>ReplaceTabWithSpace</key>
-			<true/>
+			<false/>
 			<key>Resolution</key>
 			<string>Max</string>
 			<key>SanitiseClearScreen</key>
@@ -953,6 +955,8 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>ActivateHpetSupport</key>
+			<false/>
 			<key>DisableSecurityPolicy</key>
 			<false/>
 			<key>ExitBootServicesDelay</key>

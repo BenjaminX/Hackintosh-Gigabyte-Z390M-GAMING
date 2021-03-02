@@ -1,3 +1,6 @@
+2021-02-03 / Version 1.7.4
+Upgrade to OpenCore 0.6.6 and others Kexts. Verified working with 11.2 (20D64). Replaced HfsPlus.efi driver with OpenHfsPlus.efi, removed HdaCodecDump.efi.
+
 2021-01-26 / Version 1.7.3
 Fixed DRM issues for TV+/Netflix/etc.
 
