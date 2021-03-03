@@ -170,6 +170,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
 
 ## Kexts & Tools
+* [AGPMInjector](https://github.com/Pavo-IM/AGPMInjector)
 * [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all)
 * [OpenCore Configurator](https://mackie100projects.altervista.org/category/opencore-configurator-changelog/)
 * [QtOpenCoreConfig](https://github.com/ic005k/QtOpenCoreConfig)
