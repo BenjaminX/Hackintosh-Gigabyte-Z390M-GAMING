@@ -1,3 +1,9 @@
+2021-02-10 / Version 1.7.6
+Verified working with 11.2.1 (20D74), roll back HfsPlus.efi. AGPMInjector.kext for testing.
+
+2021-02-08 / Version 1.7.5
+Upgrade to RadeonBoost.kext V1.6.
+
 2021-02-03 / Version 1.7.4
 Upgrade to OpenCore 0.6.6 and others Kexts. Verified working with 11.2 (20D64). Replaced HfsPlus.efi driver with OpenHfsPlus.efi, removed HdaCodecDump.efi.
 
