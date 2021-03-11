@@ -38,6 +38,10 @@ Items | Last Version | Comments
 [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.8 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.5 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.5 |
+[RadeonBoost](https://forums.macrumors.com/threads/tired-of-low-geekbench-scores-use-radeonboost.2231366/) | 1.6 |
+[AGPMInjector](https://github.com/Pavo-IM/AGPMInjector/releases) | 3.3.4 |
+
+
 
 
 **Important! Important! Important!**
@@ -157,6 +161,7 @@ Based on F9m version.
 ## Tips
 * How to hard-flash GC-TITAN RIDGE BIOS with SSDT patched? Ref here [Post 1](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1640#post-2087524) [Post 2](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1624#post-2086862) [Post 3](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge.md) [Post 4](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge-CustomFirmware.md)
 * How to force RGB mode for displays? Ref [here](https://forums.macrumors.com/threads/big-sur-force-rgb-mode-for-displays.2268099/)
+* Fixing iMessage and other services with OpenCore Ref [here](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial)
 
 
 ## Not Working / Issues
