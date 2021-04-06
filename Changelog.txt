@@ -1,3 +1,6 @@
+2021-02-14 / Version 1.7.7
+Verified working with 11.2.2 (20D80).
+
 2021-02-10 / Version 1.7.6
 Verified working with 11.2.1 (20D74), roll back HfsPlus.efi. AGPMInjector.kext for testing.
 
