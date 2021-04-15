@@ -177,7 +177,6 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * [OcBinaryData](https://github.com/acidanthera/OcBinaryData)
 * [Hackintool](https://github.com/headkaze/Hackintool)
 * [PLIST Editor](https://apps.apple.com/us/app/plist-editor/id1157491961?mt=12)
-* [Sanity Checker for config.plist](https://opencore.slowgeek.com)
 * [HackinDROM](https://hackindrom.zapto.org)
 
 
