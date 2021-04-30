@@ -15,16 +15,16 @@ Verified working with macOS version 11.3 (20E232) Big Sur and OpenCore 0.6.8.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
+2021-04-3- / Version 1.8.2
+Hotfix, The USB driver has changed in 11.3 and repaired again. TB3 card remove driver issues rise to 'Kernel Panic' freezing bugs.
+
 2021-04-29 / Version 1.8.1
 Verified working with 11.3 (20E232).
 
 2021-04-06 / Version 1.8.0
 Upgrade to OpenCore 0.6.8 / AppleALC 1.5.9 / VirtualSMC 1.2.2 / WhateverGreen 1.4.9 / NVMeFix 1.0.6 / Lilu 1.5.2.
 
-2021-03-09 / Version 1.7.9
-Verified working with 11.2.3 (20D91) and Optimize the startup speed issues.
-
-[Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
+> [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
 Included items table
 
