@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 11.3 (20E232) Big Sur and OpenCore 0.6.8.
+Verified working with macOS version 11.3.1 (20E241) Big Sur and OpenCore 0.6.9.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -15,14 +15,14 @@ Verified working with macOS version 11.3 (20E232) Big Sur and OpenCore 0.6.8.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
-2021-04-3- / Version 1.8.2
+2021-05-04 / Version 1.8.3
+Verified working with 11.3.1 (20E241) and Upgrade to OpenCore 0.6.9 / AppleALC 1.6.0 / VirtualSMC 1.2.3 / NVMeFix 1.0.7 / IntelMausi 1.0.6 / Lilu 1.5.3.
+
+2021-04-30 / Version 1.8.2
 Hotfix, The USB driver has changed in 11.3 and repaired again. TB3 card remove driver issues rise to 'Kernel Panic' freezing bugs.
 
 2021-04-29 / Version 1.8.1
 Verified working with 11.3 (20E232).
-
-2021-04-06 / Version 1.8.0
-Upgrade to OpenCore 0.6.8 / AppleALC 1.5.9 / VirtualSMC 1.2.2 / WhateverGreen 1.4.9 / NVMeFix 1.0.6 / Lilu 1.5.2.
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -31,13 +31,13 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9m | Be sure to upgrade F9m
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.8 |
-[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.2 | 
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.5.9 |
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.2 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.9 |
+[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.3 | 
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.0 |
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.3 |
 [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.4.9 |
-[NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.6 |
-[IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.5 |
+[NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.7 |
+[IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.6 |
 [RadeonBoost](https://forums.macrumors.com/threads/tired-of-low-geekbench-scores-use-radeonboost.2231366/) | 1.6 |
 [AGPMInjector](https://github.com/Pavo-IM/AGPMInjector/releases) | 3.3.4 |
 
@@ -168,6 +168,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 ## Known Issues
 * Big Sur seems to break the support for Apple TV+ DRM. [Ref](https://github.com/acidanthera/bugtracker/issues/1034) [WEG](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Chart.md) [WEG Ref](https://github.com/acidanthera/WhateverGreen/commit/5f6c19243f343719fdbc3e94ec22a9e2b1d16ce9)
 * Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
+* TB3 card removed, 11.3 caused 'Kernel Panic' issue.
 
 ## Kexts & Tools
 * [AGPMInjector](https://github.com/Pavo-IM/AGPMInjector)
