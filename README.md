@@ -85,6 +85,7 @@ Based on F9m version.
 #### Second setup,
 
 * Tweaker
+	- Enhanced Multi-Core Performance → **Enabled**
 	- Advanced CPU Settings
 		- VT-d → **Disabled**
 		- No. of CPU Cores Enabled → 8
