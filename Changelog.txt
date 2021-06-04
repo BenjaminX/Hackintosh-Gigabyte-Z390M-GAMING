@@ -1,3 +1,6 @@
+2021-04-29 / Version 1.8.1
+Verified working with 11.3 (20E232).
+
 2021-04-06 / Version 1.8.0
 Upgrade to OpenCore 0.6.8 / AppleALC 1.5.9 / VirtualSMC 1.2.2 / WhateverGreen 1.4.9 / NVMeFix 1.0.6 / Lilu 1.5.2.
 

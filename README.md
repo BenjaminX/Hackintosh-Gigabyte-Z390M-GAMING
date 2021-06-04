@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 11.3.1 (20E241) Big Sur and OpenCore 0.6.9.
+Verified working with macOS version 11.4 (20F71) Big Sur and OpenCore 0.7.0.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -15,14 +15,14 @@ Verified working with macOS version 11.3.1 (20E241) Big Sur and OpenCore 0.6.9.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
+2021-06-xx / Version 1.8.4
+Verified working with 11.4 (20F71) and Upgrade to OpenCore 0.7.0
+
 2021-05-04 / Version 1.8.3
 Verified working with 11.3.1 (20E241) and Upgrade to OpenCore 0.6.9 / AppleALC 1.6.0 / VirtualSMC 1.2.3 / NVMeFix 1.0.7 / IntelMausi 1.0.6 / Lilu 1.5.3.
 
 2021-04-30 / Version 1.8.2
 Hotfix, The USB driver has changed in 11.3 and repaired again. TB3 card remove driver issues rise to 'Kernel Panic' freezing bugs.
-
-2021-04-29 / Version 1.8.1
-Verified working with 11.3 (20E232).
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -31,7 +31,7 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9m | Be sure to upgrade F9m
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.6.9 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.0 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.3 | 
 [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.0 |
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.3 |
@@ -158,7 +158,7 @@ Based on F9m version.
 
 
 ## Tips
-* How to hard-flash GC-TITAN RIDGE BIOS with SSDT patched? Ref here [Post 1](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1640#post-2087524) [Post 2](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1624#post-2086862) [Post 3](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge.md) [Post 4](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge-CustomFirmware.md)
+* How to hard-flash GC-TITAN RIDGE BIOS with SSDT patched? Ref here [Post 1](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1640#post-2087524) [Post 2](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1624#post-2086862) [Post 3](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge.md) [Post 4](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge-CustomFirmware.md) [Post 5](https://elitemacx86.com/threads/how-to-flash-custom-firmware-on-thunderbolt-card-for-macos.685/)
 * How to force RGB mode for displays? Ref [here](https://forums.macrumors.com/threads/big-sur-force-rgb-mode-for-displays.2268099/)
 * Fixing iMessage and other services with OpenCore Ref [here](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial)
 
@@ -169,7 +169,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 ## Known Issues
 * Big Sur seems to break the support for Apple TV+ DRM. [Ref](https://github.com/acidanthera/bugtracker/issues/1034) [WEG](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Chart.md) [WEG Ref](https://github.com/acidanthera/WhateverGreen/commit/5f6c19243f343719fdbc3e94ec22a9e2b1d16ce9)
 * Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
-* TB3 card removed, 11.3 caused 'Kernel Panic' issue.
+* TB3 card removed, 11.3 caused 'Kernel Panic' issue. [Ref](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/issues/63)
 
 ## Kexts & Tools
 * [AGPMInjector](https://github.com/Pavo-IM/AGPMInjector)
