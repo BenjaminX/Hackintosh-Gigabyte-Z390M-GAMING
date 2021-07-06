@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 11.4 (20F71) Big Sur and OpenCore 0.7.0.
+Verified working with macOS version 11.4 (20F71) Big Sur and OpenCore 0.7.1.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png?raw=true)
 
@@ -15,14 +15,15 @@ Verified working with macOS version 11.4 (20F71) Big Sur and OpenCore 0.7.0.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png?raw=true)
 
 ## Updates
+2021-07-06 / Version 1.8.5
+Verified working with 11.4 (20F71) and Upgrade to OpenCore 0.7.1 / AppleALC 1.6.2 / VirtualSMC 1.2.5 / NVMeFix 1.0.9 / WhateverGreen 1.5.1 / Lilu 1.5.4 / IntelMausi 1.0.7.
+
 2021-06-08 / Version 1.8.4
 Verified working with 11.4 (20F71) and Upgrade to OpenCore 0.7.0 / AppleALC 1.6.1 / VirtualSMC 1.2.4 / NVMeFix 1.0.8 / WhateverGreen 1.5.0.
 
 2021-05-04 / Version 1.8.3
 Verified working with 11.3.1 (20E241) and Upgrade to OpenCore 0.6.9 / AppleALC 1.6.0 / VirtualSMC 1.2.3 / NVMeFix 1.0.7 / IntelMausi 1.0.6 / Lilu 1.5.3.
 
-2021-04-30 / Version 1.8.2
-Hotfix, The USB driver has changed in 11.3 and repaired again. TB3 card remove driver issues rise to 'Kernel Panic' freezing bugs.
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -31,13 +32,13 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9m | Be sure to upgrade F9m
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.0 |
-[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.3 | 
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.1 |
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.4 |
-[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.5.0 |
-[NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.8 |
-[IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.6 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.1 |
+[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.4 | 
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.2 |
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.5 |
+[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.5.1 |
+[NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.9 |
+[IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.7 |
 [RadeonBoost](https://forums.macrumors.com/threads/tired-of-low-geekbench-scores-use-radeonboost.2231366/) | 1.6 |
 [AGPMInjector](https://github.com/Pavo-IM/AGPMInjector/releases) | 3.3.4 |
 
