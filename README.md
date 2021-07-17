@@ -183,6 +183,7 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 ## Kexts & Tools
 * [AGPMInjector](https://github.com/Pavo-IM/AGPMInjector)
 * [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all)
+* [USBToolBox](https://github.com/USBToolBox/tool)
 * [OpenCore Configurator](https://mackie100projects.altervista.org/category/opencore-configurator-changelog/)
 * [QtOpenCoreConfig](https://github.com/ic005k/QtOpenCoreConfig)
 * [OcBinaryData](https://github.com/acidanthera/OcBinaryData)
