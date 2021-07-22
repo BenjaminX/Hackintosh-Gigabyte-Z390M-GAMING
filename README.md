@@ -58,7 +58,7 @@ Components | SKU | Comments
 **Motherboard** | Gigabyte Z390M Gaming mATX | Not interchangeable with other SKUs
 **WiFi Adapter** | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including NGFF to M.2 Adapter)
 **Graphics Card** | Dataland RX 580 8G X-Serial God of War **2304SP** | **DO NOT USE 2048SP VERSION** and **Flash VBIOS ASRock.RX580.8192.180329.rom**
-Thunderbolt Card | Gigabyte GC-TITAN RIDGE V1 | Thunderbolt 3 Certified (Need hard-flash, See below for details)
+Thunderbolt Card | ~~Gigabyte GC-TITAN RIDGE V1~~ | ~~Thunderbolt 3 Certified (Need hard-flash, See below for details, V2 better.~~ )
 SSD | WD Black SN750 NVMe SSD 1TB | Recommend upgrade to Samsung 970 Pro 1TB
 RAM | Corsair Vengeance LPX 128GB (4x32GB) DDR4 X.M.P | Recommend 3200MHz / Better 3600MHz
 PSU | Seasonic Focus Plus 650FX | Recommend upgrade to GX850 / GX1000
@@ -216,7 +216,6 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 ![SSDSpeed](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/SSDSpeed.png)
 ![RAWSpeed](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/RAWSpeed.png)
 ![IntelPower](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/intelpower.png)
-![TB3](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/tb3.png)
 ![TB3PCI](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/tb3pci.png)
 ![SSD](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/SSD.png)
 ![USB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/USB.png)
