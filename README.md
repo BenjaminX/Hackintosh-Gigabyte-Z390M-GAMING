@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 11.5 (20G71) Big Sur and OpenCore 0.7.1.
+Verified working with macOS version 11.5.1 (20G80) Big Sur and OpenCore 0.7.2.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png)
 
@@ -15,14 +15,14 @@ Verified working with macOS version 11.5 (20G71) Big Sur and OpenCore 0.7.1.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png)
 
 ## Updates
+2021-08-XXXXXXXXX / Version 1.8.7
+Verified working with 11.5.1 (20G80) and Upgrade to OpenCore 0.7.2 /
+
 2021-07-22 / Version 1.8.6
 Verified working with 11.5 (20G71).
 
 2021-07-06 / Version 1.8.5
 Verified working with 11.4 (20F71) and Upgrade to OpenCore 0.7.1 / AppleALC 1.6.2 / VirtualSMC 1.2.5 / NVMeFix 1.0.9 / WhateverGreen 1.5.1 / Lilu 1.5.4 / IntelMausi 1.0.7.
-
-2021-06-08 / Version 1.8.4
-Verified working with 11.4 (20F71) and Upgrade to OpenCore 0.7.0 / AppleALC 1.6.1 / VirtualSMC 1.2.4 / NVMeFix 1.0.8 / WhateverGreen 1.5.0.
 
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
@@ -32,7 +32,7 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9m | Be sure to upgrade F9m
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.1 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.2 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.4 | 
 [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.2 |
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.5 |
@@ -58,7 +58,7 @@ Components | SKU | Comments
 **Motherboard** | Gigabyte Z390M Gaming mATX | Not interchangeable with other SKUs
 **WiFi Adapter** | BCM943602CDP (4 antennas) | Bluetooth 4.2 (Including NGFF to M.2 Adapter)
 **Graphics Card** | Dataland RX 580 8G X-Serial God of War **2304SP** | **DO NOT USE 2048SP VERSION** and **Flash VBIOS ASRock.RX580.8192.180329.rom**
-Thunderbolt Card | ~~Gigabyte GC-TITAN RIDGE V1~~ | ~~Thunderbolt 3 Certified (Need hard-flash, See below for details, V2 better.~~ )
+Thunderbolt Card | ~~Gigabyte GC-TITAN RIDGE V1~~ | ~~Thunderbolt 3 Certified (Need hard-flash, See below for details, V2 better.)~~ 
 SSD | WD Black SN750 NVMe SSD 1TB | Recommend upgrade to Samsung 970 Pro 1TB
 RAM | Corsair Vengeance LPX 128GB (4x32GB) DDR4 X.M.P | Recommend 3200MHz / Better 3600MHz
 PSU | Seasonic Focus Plus 650FX | Recommend upgrade to GX850 / GX1000
@@ -140,6 +140,8 @@ Based on F9m version.
 	- CSM Support → **Disable**
 	- Secure Boot → **Disable** (Secure Boot will be disabled by default, but good to check)
 
+	Save & Exit reboot it.
+	
 #### Third setup,
 
 * Tweaker
@@ -149,7 +151,7 @@ Based on F9m version.
 		- Memory Enhancement Settings → **Enhanced Performance**
 * Settings
 	- IO Ports
-	- DVMT Total-Gfx Mem → **MAX**
+		- DVMT Total-Gfx Mem → **MAX**
 
 
 
