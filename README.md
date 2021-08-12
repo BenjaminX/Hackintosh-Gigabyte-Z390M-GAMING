@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 11.5.1 (20G80) Big Sur and OpenCore 0.7.2.
+Verified working with macOS version 11.5.2 (20G95) Big Sur and OpenCore 0.7.2.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png)
 
@@ -15,15 +15,14 @@ Verified working with macOS version 11.5.1 (20G80) Big Sur and OpenCore 0.7.2.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png)
 
 ## Updates
+2021-08-03 / Version 1.8.8
+Verified working with 11.5.2 (20G95).
+
 2021-08-03 / Version 1.8.7
 Verified working with 11.5.1 (20G80) and Upgrade to OpenCore 0.7.2 / AppleALC 1.6.3 / VirtualSMC 1.2.6 / WhateverGreen 1.5.2 / Lilu 1.5.5.
 
 2021-07-22 / Version 1.8.6
 Verified working with 11.5 (20G71).
-
-2021-07-06 / Version 1.8.5
-Verified working with 11.4 (20F71) and Upgrade to OpenCore 0.7.1 / AppleALC 1.6.2 / VirtualSMC 1.2.5 / NVMeFix 1.0.9 / WhateverGreen 1.5.1 / Lilu 1.5.4 / IntelMausi 1.0.7.
-
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
