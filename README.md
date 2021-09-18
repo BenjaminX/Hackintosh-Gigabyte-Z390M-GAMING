@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 11.5.2 (20G95) Big Sur and OpenCore 0.7.3.
+Verified working with macOS version 11.6 (20G165) Big Sur and OpenCore 0.7.3.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png)
 
@@ -15,14 +15,14 @@ Verified working with macOS version 11.5.2 (20G95) Big Sur and OpenCore 0.7.3.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png)
 
 ## Updates
+2021-09-18 / Version 1.9.0
+Verified working with 11.6 (20G165).
+
 2021-09-07 / Version 1.8.9
 Verified working with 11.5.2 (20G95) and Upgrade to OpenCore 0.7.3 / AppleALC 1.6.4 / VirtualSMC 1.2.7 / WhateverGreen 1.5.3 / Lilu 1.5.6.
 
 2021-08-03 / Version 1.8.8
 Verified working with 11.5.2 (20G95).
-
-2021-08-03 / Version 1.8.7
-Verified working with 11.5.1 (20G80) and Upgrade to OpenCore 0.7.2 / AppleALC 1.6.3 / VirtualSMC 1.2.6 / WhateverGreen 1.5.2 / Lilu 1.5.5.
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -133,8 +133,7 @@ Based on F9m version.
 * Boot
 	- CFG Lock → **Disabled**
 	- Full Screen LOGO Show → **Disabled**
-	- Fast Boot → **Enabled**
-		- PS2 Devices Support → **Disabled**
+	- Fast Boot → ** Disabled**
 	- Windows 8/10 Features → **Other OS**
 	- CSM Support → **Disable**
 	- Secure Boot → **Disable** (Secure Boot will be disabled by default, but good to check)

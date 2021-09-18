@@ -33,9 +33,28 @@
 			<key>IOProviderClass</key>
 			<string>IOPlatformPluginDevice</string>
 			<key>model</key>
-			<string>iMacPro1,1 MacPro7,1 MacPro5,1 MacPro4,1</string>
+			<string>iMacPro1,1 MacPro7,1 MacPro5,1 MacPro4,1 iMac19,1</string>
 			<key>Machines</key>
 			<dict>
+				<key>iMac19,1</key>
+				<dict>
+					<key>Vendor1002Device67df</key>
+					<dict>
+						<key>AGDCEnabled</key>
+						<integer>1</integer>
+						<key>Heuristic</key>
+						<dict>
+							<key>ID</key>
+							<integer>-1</integer>
+						</dict>
+						<key>control-id</key>
+						<integer>17</integer>
+						<key>max-power-state</key>
+						<integer>15</integer>
+						<key>min-power-state</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
 				<key>MacPro4,1</key>
 				<dict>
 					<key>Vendor1002Device66af</key>

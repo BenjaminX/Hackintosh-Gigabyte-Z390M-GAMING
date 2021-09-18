@@ -113,26 +113,12 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>AAPL00,DualLink</key>
-				<data>AQAAAA==</data>
-				<key>ATY,Card#</key>
-				<string>109-C94401-00</string>
 				<key>ATY,Copyright</key>
 				<string>Copyright AMD Inc. All Rights Reserved. 2005-2019</string>
 				<key>ATY,DeviceName</key>
 				<string>580X</string>
-				<key>ATY,EFIVersion</key>
-				<string>01.01.183</string>
-				<key>ATY,EFIVersionB</key>
-				<string>113-C944A1XT-014</string>
-				<key>ATY,EFIVersionE</key>
-				<string>113-C9440A-183</string>
 				<key>ATY,FamilyName</key>
 				<string>Radeon Pro</string>
-				<key>ATY,Rom#</key>
-				<string>113-C9440C-171</string>
-				<key>device_type</key>
-				<string>ATY,OrinocoParent</string>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
@@ -410,24 +396,6 @@
 				<string>RadeonBoost.kext</string>
 				<key>Comment</key>
 				<string>AMD Boost Driver</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>AGPMInjector.kext</string>
-				<key>Comment</key>
-				<string>Apple Graphics Power Management</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -773,10 +741,10 @@
 		<dict>
 			<key>AdviseFeatures</key>
 			<false/>
-			<key>MLB</key>
-			<string>ChangeMe</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
+			<key>MLB</key>
+			<string>ChangeMe</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
