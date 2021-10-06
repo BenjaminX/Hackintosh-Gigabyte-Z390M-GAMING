@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 11.6 (20G165) Big Sur and OpenCore 0.7.3.
+Verified working with macOS version 11.6 (20G165) Big Sur and OpenCore 0.7.4.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png)
 
@@ -15,14 +15,15 @@ Verified working with macOS version 11.6 (20G165) Big Sur and OpenCore 0.7.3.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png)
 
 ## Updates
+
+2021-10-06 / Version 1.9.1
+Verified working with 11.6 (20G165) and Upgrade to OpenCore 0.7.4 / AppleALC 1.6.5 / WhateverGreen 1.5.4
+
 2021-09-18 / Version 1.9.0
 Verified working with 11.6 (20G165).
 
 2021-09-07 / Version 1.8.9
 Verified working with 11.5.2 (20G95) and Upgrade to OpenCore 0.7.3 / AppleALC 1.6.4 / VirtualSMC 1.2.7 / WhateverGreen 1.5.3 / Lilu 1.5.6.
-
-2021-08-03 / Version 1.8.8
-Verified working with 11.5.2 (20G95).
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -31,11 +32,11 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9m | Be sure to upgrade F9m
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.3 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.4 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.6 | 
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.4 |
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.5 |
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.7 |
-[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.5.3 |
+[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.5.4 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.9 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.7 |
 [RadeonBoost](https://forums.macrumors.com/threads/tired-of-low-geekbench-scores-use-radeonboost.2231366/) | 1.6 |
