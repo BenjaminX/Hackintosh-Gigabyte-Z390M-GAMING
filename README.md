@@ -16,6 +16,9 @@ Verified working with macOS version 12.0.1 (21A559) Monterey and OpenCore 0.7.5.
 
 ## Updates
 
+2021-11-20 / Version 2.0.1
+ResizebleBars/SAM
+
 2021-11-04 / Version 2.0.0
 Verified working with 12.0.1 (21A559) and Upgrade to OpenCore 0.7.5 / Lilu 1.5.7 / AppleALC 1.6.6 / WhateverGreen 1.5.5 .
 
@@ -35,7 +38,6 @@ Items | Last Version | Comments
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.9 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.7 |
 [RadeonBoost](https://forums.macrumors.com/threads/tired-of-low-geekbench-scores-use-radeonboost.2231366/) | 1.6 |
-[AGPMInjector](https://github.com/Pavo-IM/AGPMInjector/releases) | 3.3.4 |
 
 
 **Important! Important! Important!**
@@ -85,11 +87,11 @@ Based on F9m version.
 	- Advanced CPU Settings
 		- VT-d → **Disabled**
 		- No. of CPU Cores Enabled → 8
-		- CPU EIST Functions → **Enabled**
-		- Race To Halt (RTH) → **Enabled**
-		- Voltage Optimization → **Enabled**
+		- CPU EIST Functions → **Auto**
+		- Race To Halt (RTH) → ** Auto**
+		- Voltage Optimization → ** Auto**
 		- Intel(R) Speed Shift Technology → **Enabled**
-		- Energy Efficient Turbo  → **Enabled**
+		- Energy Efficient Turbo  → ** Auto**
 		- Intel(R) Turbo Boost Technology → **Enabled**
 		- C-States Control
 			- CPU Enhanced Halt(C1E) → **Enabled**
@@ -113,7 +115,7 @@ Based on F9m version.
 		- Aperture Size → **256M**
 		- Audio Controller → **Enabled**
     	- Above 4G Decoding → **Enabled**
-    	- Resize BAR Support → **Disabled**
+    	- Resize BAR Support → **Auto**
     	- Super IO Configuration
     		- Serial Port → **Disabled**
     	- USB Configuration
