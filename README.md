@@ -88,18 +88,12 @@ Based on F9m version.
 		- VT-d → **Disabled**
 		- No. of CPU Cores Enabled → 8
 		- CPU EIST Functions → **Auto**
-		- Race To Halt (RTH) → ** Auto**
-		- Voltage Optimization → ** Auto**
+		- Race To Halt (RTH) → **Auto**
+		- Voltage Optimization → **Auto**
 		- Intel(R) Speed Shift Technology → **Enabled**
-		- Energy Efficient Turbo  → ** Auto**
+		- Energy Efficient Turbo  → **Auto**
 		- Intel(R) Turbo Boost Technology → **Enabled**
-		- C-States Control
-			- CPU Enhanced Halt(C1E) → **Enabled**
-			- C3 State Support → **Enabled**
-			- C6/C7 State Support → **Enabled**
-			- C8 State Support → **Enabled**
-			- C10 State Support → **Enabled**
-			- Package C State limit → **Auto**
+		- C-States Control → **Auto**
 * Settings
 	- Platform Power
 		- Platform Power Management → **Disabled**
@@ -115,7 +109,7 @@ Based on F9m version.
 		- Aperture Size → **256M**
 		- Audio Controller → **Enabled**
     	- Above 4G Decoding → **Enabled**
-    	- Resize BAR Support → **Auto**
+    	- Resize BAR Support → **Auto** **Important!**
     	- Super IO Configuration
     		- Serial Port → **Disabled**
     	- USB Configuration
