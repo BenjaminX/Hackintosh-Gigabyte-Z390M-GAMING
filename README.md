@@ -176,7 +176,6 @@ Please [report and track](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M
 * TB3 card removed, 11.3 caused 'Kernel Panic' issue. [Ref](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/issues/63)
 
 ## Kexts & Tools
-* [AGPMInjector](https://github.com/Pavo-IM/AGPMInjector)
 * [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all)
 * [USBToolBox](https://github.com/USBToolBox/tool)
 * [OpenCore Configurator](https://mackie100projects.altervista.org/category/opencore-configurator-changelog/)
