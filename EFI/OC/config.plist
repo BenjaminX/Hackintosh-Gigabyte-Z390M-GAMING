@@ -100,7 +100,7 @@
 			<key>RebuildAppleMemoryMap</key>
 			<true/>
 			<key>ResizeAppleGpuBars</key>
-			<integer>10</integer>
+			<integer>8</integer>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
@@ -249,7 +249,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>V1.5.7 | Arbitrary kext and process patching on macOS</string>
+				<string>Arbitrary kext and process patching on macOS</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -267,7 +267,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>V1.2.7 | Advanced Apple SMC emulator</string>
+				<string>Advanced Apple SMC emulator</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -285,7 +285,7 @@
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
-				<string>V1.2.7 | SMC Processor</string>
+				<string>SMC Processor</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -303,7 +303,7 @@
 				<key>BundlePath</key>
 				<string>SMCSuperIO.kext</string>
 				<key>Comment</key>
-				<string>V1.2.7 | SMC IO</string>
+				<string>SMC IO</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -321,7 +321,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>V1.5.5 | Graphics Card GPU patches</string>
+				<string>Graphics Card GPU patches</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -339,7 +339,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>V1.6.6 | Audio Drvier</string>
+				<string>Audio Drvier</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -357,7 +357,7 @@
 				<key>BundlePath</key>
 				<string>IntelMausi.kext</string>
 				<key>Comment</key>
-				<string>V1.0.7 | LAN Drviers for I219V</string>
+				<string>LAN Drviers for I219V</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -375,7 +375,7 @@
 				<key>BundlePath</key>
 				<string>NVMeFix.kext</string>
 				<key>Comment</key>
-				<string>V1.0.9 | NVMe SSD Power Managements</string>
+				<string>NVMe SSD Power Managements</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -393,7 +393,7 @@
 				<key>BundlePath</key>
 				<string>USBPorts.kext</string>
 				<key>Comment</key>
-				<string>V1.0 | USB Ports Mapping</string>
+				<string>USB Ports Mapping</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -411,7 +411,7 @@
 				<key>BundlePath</key>
 				<string>RadeonBoost.kext</string>
 				<key>Comment</key>
-				<string>V1.0 | AMD Boost Driver</string>
+				<string>AMD Boost Driver</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>

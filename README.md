@@ -16,11 +16,14 @@ Verified working with macOS version 12.0.1 (21A559) Monterey and OpenCore 0.7.5.
 
 ## Updates
 
+2021-11-21 / Version 2.0.2
+Fix ResizebleBars/SAM features. BIOS setup 'Resize BAR Support' to 'Auto'.
+
 2021-11-20 / Version 2.0.1
 ResizebleBars/SAM
 
 2021-11-04 / Version 2.0.0
-Verified working with 12.0.1 (21A559) and Upgrade to OpenCore 0.7.5 / Lilu 1.5.7 / AppleALC 1.6.6 / WhateverGreen 1.5.5 .
+Verified working with 12.0.1 (21A559) and Upgrade to OpenCore 0.7.5 / Lilu 1.5.7 / AppleALC 1.6.6 / WhateverGreen 1.5.5
 
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
@@ -109,7 +112,7 @@ Based on F9m version.
 		- Aperture Size → **256M**
 		- Audio Controller → **Enabled**
     	- Above 4G Decoding → **Enabled**
-    	- Resize BAR Support → **Auto** **Important!**
+    	- Resize BAR Support → **Auto**  **New Feature, very Important**
     	- Super IO Configuration
     		- Serial Port → **Disabled**
     	- USB Configuration
