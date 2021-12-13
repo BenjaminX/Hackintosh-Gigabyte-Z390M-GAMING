@@ -3,28 +3,23 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 12.0.1 (21A559) Monterey and OpenCore 0.7.5.
+Verified working with macOS version 12.0.1 (21A559) Monterey and OpenCore 0.7.6.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png)
 
 ## Important! Important! Important!
 
-**F9m BIOS from GIGABYTE resolves the Apple Watch unlock(SERIAL PORT disabled) issue and provides the CFG Unlock in the BIOS. CFG Unlock is required for this EFI to work properly. Be sure to upgrade F9m.**
+**F9 BIOS from GIGABYTE resolves the Apple Watch unlock(SERIAL PORT disabled) issue and provides the CFG Unlock in the BIOS. CFG Unlock is required for this EFI to work properly. Be sure to upgrade F9.**
 
 **YOU MUST modify SN/UUID/MLB/ROM values in config.plist file. ROM value is the MAC address of your motherboard built-in network card, check it on BIOS settings.**
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png)
 
 ## Updates
+2021-12-13 / Version 2.1.0
+BIOS upgrade to F9 and upgrade to OpenCore 0.7.6 / AppleALC 1.6.7 / VirtualSMC 1.2.8 / WhateverGreen 1.5.5 / Lilu 1.5.8.
 
 2021-11-21 / Version 2.0.2
 Fix ResizebleBars/SAM features. BIOS setup 'Resize BAR Support' to 'Auto'.
-
-2021-11-20 / Version 2.0.1
-ResizebleBars/SAM
-
-2021-11-04 / Version 2.0.0
-Verified working with 12.0.1 (21A559) and Upgrade to OpenCore 0.7.5 / Lilu 1.5.7 / AppleALC 1.6.6 / WhateverGreen 1.5.5
-
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -32,11 +27,11 @@ Included items table
 
 Items | Last Version | Comments
 ------------ | ------------- | -------------
-[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9m | Be sure to upgrade F9m
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.5 |
-[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.7 | 
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.6 |
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.7 |
+[BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9 | Be sure to upgrade F9
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.6 |
+[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.5.8 | 
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.7 |
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.8 |
 [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.5.5 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.9 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.7 |
@@ -45,7 +40,7 @@ Items | Last Version | Comments
 
 **Important! Important! Important!**
 
-**Highly recommended to make sure to use the latest BIOS 'F9m' version. Download [BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS/mb_bios_z390-m-gaming_f9m.zip) and flash it for CFG unlocked, SERIAL PORT disabled from BIOS settings.**
+**Highly recommended to make sure to use the latest BIOS 'F9' version. Download [BIOS](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/BIOS/mb_bios_z390-m-gaming_f9_new.zip) and flash it for CFG unlocked, SERIAL PORT disabled from BIOS settings.**
 
 ## Overview
 Installation procedure is quite straightforward, but requires prior knowledge or experience with Hackintoshes. 
@@ -76,7 +71,7 @@ If you want a smooth experience using wireless functionalities such as AirDrop /
 
 ## BIOS Settings
 
-Based on F9m version.
+Based on F9 version.
 
 #### First setup,
 
