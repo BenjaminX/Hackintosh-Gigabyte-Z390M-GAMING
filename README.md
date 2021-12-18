@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 12.0.1 (21A559) Monterey and OpenCore 0.7.6.
+Verified working with macOS version 12.1 (21C52) Monterey and OpenCore 0.7.6.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png)
 
@@ -15,6 +15,9 @@ Verified working with macOS version 12.0.1 (21A559) Monterey and OpenCore 0.7.6.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png)
 
 ## Updates
+2021-12-18 / Version 2.1.1
+Verified working with 12.1 (21C52)
+
 2021-12-13 / Version 2.1.0
 BIOS upgrade to F9 and upgrade to OpenCore 0.7.6 / AppleALC 1.6.7 / VirtualSMC 1.2.8 / WhateverGreen 1.5.5 / Lilu 1.5.8.
 
