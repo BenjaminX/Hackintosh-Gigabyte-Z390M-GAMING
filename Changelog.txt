@@ -1,3 +1,6 @@
+2021-11-21 / Version 2.0.2
+Fix ResizebleBars/SAM features. BIOS setup 'Resize BAR Support' to 'Auto'.
+
 2021-11-20 / Version 2.0.1
 ResizebleBars/SAM
 
