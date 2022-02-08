@@ -1,3 +1,6 @@
+2021-12-13 / Version 2.1.0
+BIOS upgrade to F9 and upgrade to OpenCore 0.7.6 / AppleALC 1.6.7 / VirtualSMC 1.2.8 / WhateverGreen 1.5.5 / Lilu 1.5.8.
+
 2021-11-21 / Version 2.0.2
 Fix ResizebleBars/SAM features. BIOS setup 'Resize BAR Support' to 'Auto'.
 
