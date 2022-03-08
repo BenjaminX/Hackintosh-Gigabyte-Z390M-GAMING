@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 12.2 (21D49) Monterey and OpenCore 0.7.8.
+Verified working with macOS version 12.3 (XXXXX) Monterey and OpenCore 0.7.9.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png)
 
@@ -15,14 +15,14 @@ Verified working with macOS version 12.2 (21D49) Monterey and OpenCore 0.7.8.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png)
 
 ## Updates
+2022-03-10 / Version 2.2.2
+Verified working with 12.3 (XXXXX) and upgrade to OpenCore 0.7.9 / AppleALC 1.7.0 / WhateverGreen 1.5.8 / VirtualSMC 1.2.9.
+
 2022-02-08 / Version 2.2.1
 Verified working with 12.2 (21D49) upgrade to OpenCore 0.7.8 / AppleALC 1.6.9 / WhateverGreen 1.5.7 / Lilu 1.6.0.
 
 2022-01-12 / Version 2.2.0
 Verified working with 12.1 (21C52) upgrade to OpenCore 0.7.7 / AppleALC 1.6.8 / WhateverGreen 1.5.6 / Lilu 1.5.9.
-
-2021-12-18 / Version 2.1.1
-Verified working with 12.1 (21C52)
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -31,11 +31,11 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9 | Be sure to upgrade F9
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.8 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.9 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.0 | 
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.6.9 |
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.8 |
-[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.5.7 |
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.7.0 |
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.9 |
+[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.5.8 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.9 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.7 |
 [RadeonBoost](https://forums.macrumors.com/threads/tired-of-low-geekbench-scores-use-radeonboost.2231366/) | 1.6 |
