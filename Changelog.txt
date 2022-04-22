@@ -1,3 +1,6 @@
+2022-02-08 / Version 2.2.1
+Verified working with 12.2 (21D49) upgrade to OpenCore 0.7.8 / AppleALC 1.6.9 / WhateverGreen 1.5.7 / Lilu 1.6.0.
+
 2022-01-12 / Version 2.2.0
 Verified working with 12.1 (21C52) upgrade to OpenCore 0.7.7 / AppleALC 1.6.8 / WhateverGreen 1.5.6 / Lilu 1.5.9.
 

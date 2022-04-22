@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 12.3 (21E230) Monterey and OpenCore 0.7.9.
+Verified working with macOS version 12.3.1 (21E258) Monterey and OpenCore 0.8.0.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png)
 
@@ -15,14 +15,14 @@ Verified working with macOS version 12.3 (21E230) Monterey and OpenCore 0.7.9.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png)
 
 ## Updates
+2022-04-22 / Version 2.2.4
+Verified working with 12.3.1 (21E258) and upgrade to OpenCore 0.8.0 / AppleALC 1.7.1
+
 2022-03-21 / Version 2.2.3
 Fix bugs on 12.3 removed RadeonBoost.kext 1.6.
 
 2022-03-20 / Version 2.2.2
 Verified working with 12.3 (21E230) and upgrade to OpenCore 0.7.9 / AppleALC 1.7.0 / WhateverGreen 1.5.8 / VirtualSMC 1.2.9.
-
-2022-02-08 / Version 2.2.1
-Verified working with 12.2 (21D49) upgrade to OpenCore 0.7.8 / AppleALC 1.6.9 / WhateverGreen 1.5.7 / Lilu 1.6.0.
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -31,9 +31,9 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9 | Be sure to upgrade F9
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.7.9 |
-[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.0 | 
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.7.0 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.0 |
+[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.0 |
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.7.1 |
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.9 |
 [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.5.8 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.9 |
