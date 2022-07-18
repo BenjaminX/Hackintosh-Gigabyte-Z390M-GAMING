@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 12.4 (21F79) Monterey and OpenCore 0.8.1.
+Verified working with macOS version 12.4 (21F79) Monterey and OpenCore 0.8.2.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png)
 
@@ -15,14 +15,14 @@ Verified working with macOS version 12.4 (21F79) Monterey and OpenCore 0.8.1.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png)
 
 ## Updates
+2022-07-18 / Version 2.2.6
+Verified working with 12.4 (21F79) and upgrade to OpenCore 0.8.2 / AppleALC 1.7.3 / WhateverGreen 1.6.0 / Lilu 1.6.1 / NVMeFix 1.1.0 / VirtualSMC 1.3.0
+
 2022-06-12 / Version 2.2.5
 Verified working with 12.4 (21F79) and upgrade to OpenCore 0.8.1 / AppleALC 1.7.2 / WhateverGreen 1.5.9
 
 2022-04-22 / Version 2.2.4
 Verified working with 12.3.1 (21E258) and upgrade to OpenCore 0.8.0 / AppleALC 1.7.1
-
-2022-03-21 / Version 2.2.3
-Fix bugs on 12.3 removed RadeonBoost.kext 1.6.
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -31,12 +31,12 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9 | Be sure to upgrade F9
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.1 |
-[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.0 |
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.7.2 |
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.2.9 |
-[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.5.9 |
-[NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.0.9 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.2 |
+[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.1 |
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.7.3 |
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.3.0 |
+[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.6.0 |
+[NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.1.0 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.7 |
 
 **Important! Important! Important!**
