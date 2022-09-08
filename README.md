@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 12.5 (21G72) Monterey and OpenCore 0.8.3.
+Verified working with macOS version 12.5.1 (21G83) Monterey and OpenCore 0.8.4.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png)
 
@@ -15,14 +15,16 @@ Verified working with macOS version 12.5 (21G72) Monterey and OpenCore 0.8.3.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png)
 
 ## Updates
+2022-09-10 / Version 2.2.8
+Verified working with 12.5.1 (21G83) and upgrade to OpenCore 0.8.4 / AppleALC 1.7.5
+
 2022-08-10 / Version 2.2.7
 Verified working with 12.5 (21G72) and upgrade to OpenCore 0.8.3 / AppleALC 1.7.4 / WhateverGreen 1.6.1 / Lilu 1.6.2
 
 2022-07-18 / Version 2.2.6
 Verified working with 12.4 (21F79) and upgrade to OpenCore 0.8.2 / AppleALC 1.7.3 / WhateverGreen 1.6.0 / Lilu 1.6.1 / NVMeFix 1.1.0 / VirtualSMC 1.3.0
 
-2022-06-12 / Version 2.2.5
-Verified working with 12.4 (21F79) and upgrade to OpenCore 0.8.1 / AppleALC 1.7.2 / WhateverGreen 1.5.9
+
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -31,9 +33,9 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9 | Be sure to upgrade F9
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.3 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.4 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.2 |
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.7.3 |
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.7.5 |
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.3.0 |
 [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.6.1 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.1.0 |
