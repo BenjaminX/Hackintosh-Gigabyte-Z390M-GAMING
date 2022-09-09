@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 12.5.1 (21G83) Monterey and OpenCore 0.8.4.
+Verified working with macOS version 12.6 RC (21G115) Monterey and OpenCore 0.8.4.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png)
 
@@ -15,15 +15,15 @@ Verified working with macOS version 12.5.1 (21G83) Monterey and OpenCore 0.8.4.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png)
 
 ## Updates
-2022-09-10 / Version 2.2.8
+
+2022-09-09 / Version 2.2.9
+Verified working with 12.6 RC (21G115) and fix ResizeAppleGpuBars value to -1 disabled.
+
+2022-09-08 / Version 2.2.8
 Verified working with 12.5.1 (21G83) and upgrade to OpenCore 0.8.4 / AppleALC 1.7.5
 
 2022-08-10 / Version 2.2.7
 Verified working with 12.5 (21G72) and upgrade to OpenCore 0.8.3 / AppleALC 1.7.4 / WhateverGreen 1.6.1 / Lilu 1.6.2
-
-2022-07-18 / Version 2.2.6
-Verified working with 12.4 (21F79) and upgrade to OpenCore 0.8.2 / AppleALC 1.7.3 / WhateverGreen 1.6.0 / Lilu 1.6.1 / NVMeFix 1.1.0 / VirtualSMC 1.3.0
-
 
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
@@ -110,7 +110,7 @@ Based on F9 version.
 		- Aperture Size → **256M**
 		- Audio Controller → **Enabled**
     	- Above 4G Decoding → **Enabled**
-    	- Resize BAR Support → **Auto**  **New Feature, very Important**
+    	- Resize BAR Support → **Disabled**  **New Feature, very Important**
     	- Super IO Configuration
     		- Serial Port → **Disabled**
     	- USB Configuration
