@@ -86,7 +86,7 @@ Based on F9 version.
 * Tweaker
 	- Enhanced Multi-Core Performance → **Enabled**
 	- Advanced CPU Settings
-		- VT-d → **Disabled**
+		- VT-d → **Disabled** or **Enabled**
 		- No. of CPU Cores Enabled → 8
 		- CPU EIST Functions → **Auto**
 		- Race To Halt (RTH) → **Auto**
@@ -163,6 +163,7 @@ Based on F9 version.
 * How to hard-flash GC-TITAN RIDGE BIOS with SSDT patched? Ref here [Post 1](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1640#post-2087524) [Post 2](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/page-1624#post-2086862) [Post 3](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge.md) [Post 4](https://github.com/ameyrupji/thunderbolt-macpro-5-1/blob/master/GC-TitanRidge-CustomFirmware.md) [Post 5](https://elitemacx86.com/threads/how-to-flash-custom-firmware-on-thunderbolt-card-for-macos.685/)
 * How to force RGB mode for displays? Ref [here](https://forums.macrumors.com/threads/big-sur-force-rgb-mode-for-displays.2268099/)
 * Fixing iMessage and other services with OpenCore Ref [here](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial)
+* How to Enable Apple VT-D on macOS [here ](https://elitemacx86.com/threads/how-to-enable-apple-vtd-on-macos.868/)
 
 
 ## Not Working / Issues
