@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 12.6 RC (21G115) Monterey and OpenCore 0.8.4.
+Verified working with macOS version 13.0 (22A380) Ventura and OpenCore 0.8.5.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png)
 
@@ -16,15 +16,8 @@ Verified working with macOS version 12.6 RC (21G115) Monterey and OpenCore 0.8.4
 
 ## Updates
 
-2022-09-09 / Version 2.2.9
-Verified working with 12.6 RC (21G115) and fix ResizeAppleGpuBars value to -1 disabled.
-
-2022-09-08 / Version 2.2.8
-Verified working with 12.5.1 (21G83) and upgrade to OpenCore 0.8.4 / AppleALC 1.7.5
-
-2022-08-10 / Version 2.2.7
-Verified working with 12.5 (21G72) and upgrade to OpenCore 0.8.3 / AppleALC 1.7.4 / WhateverGreen 1.6.1 / Lilu 1.6.2
-
+2022-10-27 / Version 3.0.0
+Verified working with 13.0 (22A380) and upgrade to OpenCore 0.8.5. Enabled VT-D.
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -33,7 +26,7 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9 | Be sure to upgrade F9
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.4 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.5 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.2 |
 [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.7.5 |
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.3.0 |
@@ -86,7 +79,7 @@ Based on F9 version.
 * Tweaker
 	- Enhanced Multi-Core Performance → **Enabled**
 	- Advanced CPU Settings
-		- VT-d → **Disabled** or **Enabled**
+		- VT-d → **Enabled**
 		- No. of CPU Cores Enabled → 8
 		- CPU EIST Functions → **Auto**
 		- Race To Halt (RTH) → **Auto**
