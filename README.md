@@ -15,11 +15,11 @@ Verified working with macOS version 13.0.1 (22A400) Ventura and OpenCore 0.8.7.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png)
 
 ## Updates
+2022-12-12 / Version 3.2.1
+Fix ResizeAppleGpuBars value to 8 and Resize BAR Support to Auto in BIOS,  Enabled VT-D.
+
 2022-12-09 / Version 3.2.0
 Verified working with 13.0.1 (22A400) and upgrade to OpenCore 0.8.7 / AppleALC 1.7.7 / WhateverGreen 1.6.2.
-
-2022-11-11 / Version 3.1.0
-Verified working with 13.0.1 (22A400) and upgrade to OpenCore 0.8.6 / AppleALC 1.7.6.
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -105,7 +105,7 @@ Based on F9 version.
 		- Aperture Size → **256M**
 		- Audio Controller → **Enabled**
     	- Above 4G Decoding → **Enabled**
-    	- Resize BAR Support → **Disabled**  **New Feature, very Important**
+    	- Resize BAR Support → **Auto**
     	- Super IO Configuration
     		- Serial Port → **Disabled**
     	- USB Configuration

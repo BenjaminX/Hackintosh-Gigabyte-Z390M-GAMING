@@ -1,5 +1,8 @@
+2022-11-11 / Version 3.1.0
+Verified working with 13.0.1 (22A400) and upgrade to OpenCore 0.8.6 / AppleALC 1.7.6.
+
 2022-10-27 / Version 3.0.0
-Verified working with 13.0 (22A380) and upgrade to OpenCore 0.8.5. Enabled VT-D.
+Verified working with 13.0 (22A380) and upgrade to OpenCore 0.8.5.
 
 2022-10-09 / Version 2.2.9
 Verified working with 12.6 RC (21G115) and fix ResizeAppleGpuBars value to -1 disabled.
