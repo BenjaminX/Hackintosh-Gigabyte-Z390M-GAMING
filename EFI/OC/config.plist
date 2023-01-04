@@ -100,7 +100,7 @@
 			<key>RebuildAppleMemoryMap</key>
 			<true/>
 			<key>ResizeAppleGpuBars</key>
-			<integer>8</integer>
+			<integer>0</integer>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
@@ -784,7 +784,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>ChangMe</string>
+			<string>ChangeMe</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -796,9 +796,9 @@
 			<key>SystemProductName</key>
 			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
-			<string>ChangMe</string>
+			<string>ChangeMe</string>
 			<key>SystemUUID</key>
-			<string>ChangMe</string>
+			<string>ChangeMe</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
