@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 13.1 (22C65) Ventura and OpenCore 0.8.8.
+Verified working with macOS version 13.2.1 (22D68) Ventura and OpenCore 0.8.9.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png)
 
@@ -15,11 +15,11 @@ Verified working with macOS version 13.1 (22C65) Ventura and OpenCore 0.8.8.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png)
 
 ## Updates
+2023-2-19 / Version 3.4.0
+Verified working with 13.2.1 (22D68) and upgrade to OpenCore 0.8.9 / AppleALC 1.7.9 / WhateverGreen 1.6.4.
+
 2023-1-5 / Version 3.3.0
 Verified working with 13.1 (22C65) and upgrade to OpenCore 0.8.8 / AppleALC 1.7.8 / WhateverGreen 1.6.3 / Lilu 1.6.3.
-
-2022-12-12 / Version 3.2.1
-Fix ResizeAppleGpuBars value to 8 and Resize BAR Support to Auto in BIOS,  Enabled VT-D.
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -28,11 +28,11 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9 | Be sure to upgrade F9
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.8 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.9 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.3 |
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.7.8 |
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.7.9 |
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.3.0 |
-[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.6.3 |
+[WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.6.4 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.1.0 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.7 |
 
