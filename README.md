@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 13.2.1 (22D68) Ventura and OpenCore 0.8.9.
+Verified working with macOS version 13.3 (22E252) Ventura and OpenCore 0.9.0.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png)
 
@@ -15,11 +15,8 @@ Verified working with macOS version 13.2.1 (22D68) Ventura and OpenCore 0.8.9.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png)
 
 ## Updates
-2023-2-19 / Version 3.4.0
-Verified working with 13.2.1 (22D68) and upgrade to OpenCore 0.8.9 / AppleALC 1.7.9 / WhateverGreen 1.6.4.
-
-2023-1-5 / Version 3.3.0
-Verified working with 13.1 (22C65) and upgrade to OpenCore 0.8.8 / AppleALC 1.7.8 / WhateverGreen 1.6.3 / Lilu 1.6.3.
+2023-3-31 / Version 3.5.0
+Verified working with 13.3 (22E252) and upgrade to OpenCore 0.9.0 / AppleALC 1.8.0 / WhateverGreen 1.6.4 / Lilu 1.6.4 / VirtualSMC 1.3.1.
 
 > [Changelog History](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/tree/master/Changelog.txt)
 
@@ -28,10 +25,10 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9 | Be sure to upgrade F9
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.8.9 |
-[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.3 |
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.7.9 |
-[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.3.0 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.9.0 |
+[Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.4 |
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.8.0 |
+[VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.3.1 |
 [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.6.4 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.1.0 |
 [IntelMausi](https://github.com/acidanthera/IntelMausi/releases) | 1.0.7 |
@@ -94,7 +91,7 @@ Based on F9 version.
 	- Platform Power
 		- Platform Power Management → **Disabled**
 		- AC Back → **Always On**
-		- ErP → **Disabled**
+		- ErP → **Enabled**
 		- Soft-Off by PWR-BTTN → **Delay 4 Sec.**
 		- Power Loading → **Enabled**
 		- RC6(Render Standby) → **Enabled**
