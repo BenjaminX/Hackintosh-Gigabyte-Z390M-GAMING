@@ -3,7 +3,7 @@
 
 ## Gigabyte Z390M GAMING hackintosh w/ OpenCore
 
-Verified working with macOS version 13.3 (22E252) Ventura and OpenCore 0.9.0.
+Verified working with macOS version 13.3.1 (22E261) Ventura and OpenCore 0.9.1.
 
 ![System](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/About-System.png)
 
@@ -15,6 +15,9 @@ Verified working with macOS version 13.3 (22E252) Ventura and OpenCore 0.9.0.
 ![SN/UUID/MLB](https://github.com/BenjaminX/Hackintosh-Gigabyte-Z390M-GAMING/blob/master/Tips/MLBUUIDSN.png)
 
 ## Updates
+2023-4-15 / Version 3.5.1
+Verified working with 13.3.1 (22E261) and upgrade to OpenCore 0.9.1 / AppleALC 1.8.1
+
 2023-3-31 / Version 3.5.0
 Verified working with 13.3 (22E252) and upgrade to OpenCore 0.9.0 / AppleALC 1.8.0 / WhateverGreen 1.6.4 / Lilu 1.6.4 / VirtualSMC 1.3.1.
 
@@ -25,9 +28,9 @@ Included items table
 Items | Last Version | Comments
 ------------ | ------------- | -------------
 [BIOS](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) | F9 | Be sure to upgrade F9
-[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.9.0 |
+[OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) | 0.9.1 |
 [Lilu](https://github.com/acidanthera/Lilu/releases) | 1.6.4 |
-[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.8.0 |
+[AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.8.1 |
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) | 1.3.1 |
 [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases) | 1.6.4 |
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases) | 1.1.0 |
