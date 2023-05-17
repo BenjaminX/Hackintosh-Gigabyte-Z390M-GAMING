@@ -1,5 +1,5 @@
 
-# ** Sorry, The machine has been given to a friend for use, so updates are temporarily suspended. We cannot determine when the updates will resume.
+# **Sorry, The machine has been given to a friend for use, so updates are temporarily suspended. We cannot determine when the updates will resume.
 
 # Hackintosh-Gigabyte-Z390M-GAMING
 [OpenCore](https://github.com/acidanthera/OpenCorePkg) bootloader ONLY, Clover not supported (Let it go).
